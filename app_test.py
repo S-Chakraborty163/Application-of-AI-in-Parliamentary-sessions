@@ -17,6 +17,7 @@ from datetime import datetime
 import itertools
 import sansad_scraper
 from arena_tab import render_arena_tab
+from quality_eval_tab import render_quality_eval_tab
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -438,11 +439,12 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "[ 01_DATA_ACQUISITION ]",
     "[ 02_POLICY_INFERENCE ]",
     "[ 03_QUERY_INTERFACE ]",
     "[ 04_MODEL_ARENA ]",
+    "[ 05_EVALUATION_MATRIX ]",
 ])
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -723,20 +725,25 @@ with tab2:
             "@cf/google/gemma-3-12b-it",
             "@hf/mistral/mistral-7b-instruct-v0.2",
             "@cf/ibm-granite/granite-4.0-h-micro",
+            "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+            "@cf/zai-org/glm-4.7-flash",
         ]
         MODEL_COLORS_TAB2 = {
-            "@cf/meta/llama-3.3-70b-instruct-fp8-fast":   "#4ECDC4",
+            "@cf/meta/llama-3.3-70b-instruct-fp8-fast":     "#4ECDC4",
             "@cf/meta/llama-3-8b-instruct":                 "#FF6B6B",
-            "@cf/google/gemma-3-12b-it":                    "#A78BFA",
-            "@hf/mistral/mistral-7b-instruct-v0.2":         "#34D399",
+            "@cf/google/gemma-3-12b-it":                    "#F7B731",
+            "@hf/mistral/mistral-7b-instruct-v0.2":         "#A55EEA",
             "@cf/ibm-granite/granite-4.0-h-micro":          "#00F0FF",
+            "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": "#45AAF2",
+            "@cf/zai-org/glm-4.7-flash":                    "#FA8231",
         }
         MODEL_LABELS_TAB2 = {
             "@cf/meta/llama-3.3-70b-instruct-fp8-fast":   "Llama 3.3 · 70B",
             "@cf/meta/llama-3-8b-instruct":                 "Llama 3.0 · 8B",
             "@cf/google/gemma-3-12b-it":                    "Gemma 3 · 12B",
             "@hf/mistral/mistral-7b-instruct-v0.2":         "Mistral · 7B",
-            "@cf/ibm-granite/granite-4.0-h-micro":          "Granite 4.0 · Micro",
+            "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": "DeepSeek R1 · 32B",
+            "@cf/zai-org/glm-4.7-flash":                    "GLM-4.7 · Flash",
         }
 
         # ── Model selector for batch runs ──────────────────────────────────────
@@ -1301,3 +1308,6 @@ with tab3:
 # ═════════════════════════════════════════════════════════════════════════════
 with tab4:
     render_arena_tab(ai_engine)
+
+with tab5:
+    render_quality_eval_tab(ai_engine)
