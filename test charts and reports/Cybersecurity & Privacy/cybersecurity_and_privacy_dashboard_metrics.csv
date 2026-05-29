@@ -1,0 +1,5 @@
+Topic,Model,Dashboard Wait Time (s),Total Tokens
+Cybersecurity & Privacy,openai/gpt-oss-20b,2.25,5273
+Cybersecurity & Privacy,llama-3.3-70b-versatile,2.79,3146
+Cybersecurity & Privacy,llama-3.1-8b-instant,3.8,3748
+Cybersecurity & Privacy,qwen/qwen3-32b,5.94,5071

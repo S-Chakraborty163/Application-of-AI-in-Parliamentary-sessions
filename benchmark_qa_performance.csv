@@ -1,0 +1,91 @@
+Topic,Model,Question,Latency (s),Speed (TPS),Docs Found,Answer Snippet
+Unemployment & Economy,llama-3.3-70b-versatile,Q1,0.79,594.51,3,Outside the database: The context provided does not discuss the primary factors contributing to grad...
+Unemployment & Economy,llama-3.3-70b-versatile,Q2,0.79,889.23,3,"Based on the provided context, there is no specific information about the Ministry of Skill Developm..."
+Unemployment & Economy,llama-3.3-70b-versatile,Q3,0.38,1028.54,3,"| State | 2015-16 Unemployed Youths | 2016-17 Unemployed Youths (as on 30.6.16) |
+| --- | --- | --- ..."
+Unemployment & Economy,llama-3.3-70b-versatile,Q4,1.1,623.95,3,"Based on the provided context, there is no direct information about the debate around AI automation ..."
+Unemployment & Economy,llama-3.3-70b-versatile,Q5,0.7,679.2,3,Outside the database: The provided context does not contain information on proposed social security ...
+Unemployment & Economy,llama-3.1-8b-instant,Q1,8.22,92.02,3,"Outside the database, I can provide general information on the primary factors contributing to gradu..."
+Unemployment & Economy,llama-3.1-8b-instant,Q2,1.3,635.5,3,"Unfortunately, the provided context does not mention the gig economy. However, I can extract a timel..."
+Unemployment & Economy,llama-3.1-8b-instant,Q3,0.43,1061.08,3,"Based on the provided context, here's a comparison of the state-wise youth unemployment trends in a ..."
+Unemployment & Economy,llama-3.1-8b-instant,Q4,2.12,463.42,3,"Based on the provided context, there is no direct information about the debate around AI automation ..."
+Unemployment & Economy,llama-3.1-8b-instant,Q5,5.67,87.88,3,"**Executive Summary**
+
+The proposed social security protections for gig and platform workers aim to ..."
+Unemployment & Economy,qwen/qwen3-32b,Q1,5.82,123.34,3,"<think>
+Okay, the user is asking about the primary factors contributing to graduate unemployment in ..."
+Unemployment & Economy,qwen/qwen3-32b,Q2,2.63,352.97,3,"<think>
+Okay, let's see. The user is asking for a timeline of initiatives launched by the Ministry o..."
+Unemployment & Economy,qwen/qwen3-32b,Q3,4.75,244.07,3,"<think>
+Okay, let's see. The user wants me to compare state-wise youth unemployment trends from the ..."
+Unemployment & Economy,qwen/qwen3-32b,Q4,6.22,192.62,3,"<think>
+Okay, let's tackle this query. The user wants a summary of the debate around AI automation's..."
+Unemployment & Economy,qwen/qwen3-32b,Q5,9.24,85.64,3,"<think>
+Okay, the user wants an executive summary on proposed social security protections for gig an..."
+Unemployment & Economy,openai/gpt-oss-20b,Q1,3.03,344.04,3,The context you provided does not contain any information about graduate unemployment in urban areas...
+Unemployment & Economy,openai/gpt-oss-20b,Q2,3.65,221.11,3,The provided context does not contain any information about initiatives launched by the Ministry of ...
+Unemployment & Economy,openai/gpt-oss-20b,Q3,4.97,192.67,3,"**Youth Unemployment Trends (2015‑16 vs. 2016‑17)**  
+
+| State          | 2015‑16 Youth Unemployment..."
+Unemployment & Economy,openai/gpt-oss-20b,Q4,3.19,417.29,3,"**Debate Overview**
+
+| Issue | Pro‑AI View | Anti‑AI / Cautionary View |
+|-------|-------------|----..."
+Unemployment & Economy,openai/gpt-oss-20b,Q5,4.24,287.19,3,...
+Air Pollution & Environment,llama-3.3-70b-versatile,Q1,1.18,695.29,3,Outside the database: The context provided does not contain information about the key policies imple...
+Air Pollution & Environment,llama-3.3-70b-versatile,Q2,0.75,863.48,3,The provided text does not specifically mention policy gaps in the current AQI prediction and monito...
+Air Pollution & Environment,llama-3.3-70b-versatile,Q3,0.89,1097.67,3,"Based on the provided context, there is no information about the emission reduction targets or actua..."
+Air Pollution & Environment,llama-3.3-70b-versatile,Q4,0.56,1121.19,3,The provided context does not contain information about the parliamentary committee's recommendation...
+Air Pollution & Environment,llama-3.3-70b-versatile,Q5,1.28,962.66,3,Outside the database: The provided context does not contain information about the latest National Cl...
+Air Pollution & Environment,llama-3.1-8b-instant,Q1,0.84,982.33,3,"The key policies implemented by the Ministry of Environment, Forest and Climate Change (MoEFCC) to c..."
+Air Pollution & Environment,llama-3.1-8b-instant,Q2,0.45,1558.34,3,The provided text does not explicitly mention policy gaps in the current AQI (Air Quality Index) pre...
+Air Pollution & Environment,llama-3.1-8b-instant,Q3,1.31,999.99,3,"**Emission Reduction Targets vs. Actual Achievements for Top 5 Most Polluted Cities**
+
+| City | Emis..."
+Air Pollution & Environment,llama-3.1-8b-instant,Q4,1.09,748.99,3,"Unfortunately, the provided context does not contain information about the parliamentary committee's..."
+Air Pollution & Environment,llama-3.1-8b-instant,Q5,0.77,1404.18,3,"Unfortunately, the provided context does not contain information about the National Clean Air Progra..."
+Air Pollution & Environment,qwen/qwen3-32b,Q1,6.41,182.74,3,"<think>
+Okay, the user is asking about the key policies implemented by the MoEFCC to combat stubble ..."
+Air Pollution & Environment,qwen/qwen3-32b,Q2,7.53,142.44,3,"<think>
+Okay, let's see. The user is asking about specific policy gaps in the current AQI prediction..."
+Air Pollution & Environment,qwen/qwen3-32b,Q3,6.31,179.03,3,"<think>
+Okay, the user wants a Markdown table comparing emission reduction targets versus actual ach..."
+Air Pollution & Environment,qwen/qwen3-32b,Q4,3.33,292.67,3,"<think>
+Okay, the user is asking for a summary of the parliamentary committee's recommendations on c..."
+Air Pollution & Environment,qwen/qwen3-32b,Q5,6.34,171.88,3,"<think>
+Okay, the user is asking for the latest National Clean Air Programme (NCAP) fund allocations..."
+Air Pollution & Environment,openai/gpt-oss-20b,Q1,0.79,1323.7,3,"The provided context does not contain any information about the Ministry of Environment, Forest and ..."
+Air Pollution & Environment,openai/gpt-oss-20b,Q2,0.59,1690.7,3,The supplied text does not contain any information about AQI (Air Quality Index) prediction or monit...
+Air Pollution & Environment,openai/gpt-oss-20b,Q3,0.93,1477.77,3,**Note:** The provided context does not contain any information on emission‑reduction targets or act...
+Air Pollution & Environment,openai/gpt-oss-20b,Q4,0.56,1719.1,3,"I’m sorry, but the provided context does not contain any information about a parliamentary committee..."
+Air Pollution & Environment,openai/gpt-oss-20b,Q5,0.95,1539.18,3,The information about the latest National Clean Air Programme (NCAP) fund allocations by state is **...
+Agriculture & Farmers,llama-3.3-70b-versatile,Q1,0.59,1189.95,3,There is no mention of government interventions regarding Minimum Support Price (MSP) adjustments fo...
+Agriculture & Farmers,llama-3.3-70b-versatile,Q2,0.91,963.56,3,"Based on general knowledge outside the database, the top three challenges in implementing the Pradha..."
+Agriculture & Farmers,llama-3.3-70b-versatile,Q3,0.75,783.0,3,There is no information available in the provided context regarding a parliamentary debate on the lo...
+Agriculture & Farmers,llama-3.3-70b-versatile,Q4,1.26,585.97,3,"Based on the provided context, there is no direct information about policy gaps in linking rural far..."
+Agriculture & Farmers,llama-3.3-70b-versatile,Q5,0.92,541.16,3,There is no discussion on adopting climate-resilient crop varieties in the provided context. The con...
+Agriculture & Farmers,llama-3.1-8b-instant,Q1,0.65,1227.51,3,The provided context does not mention Minimum Support Price (MSP) adjustments for Rabi crops. Howeve...
+Agriculture & Farmers,llama-3.1-8b-instant,Q2,0.66,1426.66,3,"Based on general knowledge, as the specific context is not available in the database, I will provide..."
+Agriculture & Farmers,llama-3.1-8b-instant,Q3,1.15,727.17,3,"Unfortunately, the provided context does not contain any information about the parliamentary debate ..."
+Agriculture & Farmers,llama-3.1-8b-instant,Q4,1.58,502.03,3,"Based on the available context, I will attempt to identify the policy gaps in linking rural farmers ..."
+Agriculture & Farmers,llama-3.1-8b-instant,Q5,0.58,811.25,3,There is no discussion on adopting climate-resilient crop varieties in the provided context. However...
+Agriculture & Farmers,qwen/qwen3-32b,Q1,2.24,472.3,3,"<think>
+Okay, let's see. The user is asking for government interventions related to Minimum Support ..."
+Agriculture & Farmers,qwen/qwen3-32b,Q2,1.79,632.58,3,"<think>
+Okay, let's tackle this query. The user wants a JSON listing the top three challenges in imp..."
+Agriculture & Farmers,qwen/qwen3-32b,Q3,0.84,903.57,3,"<think>
+Okay, let's see. The user is asking for a summary of the parliamentary debate on the long-te..."
+Agriculture & Farmers,qwen/qwen3-32b,Q4,1.99,570.01,3,"<think>
+Okay, the user is asking about policy gaps in linking rural farmers directly to the e-NAM pl..."
+Agriculture & Farmers,qwen/qwen3-32b,Q5,1.9,393.2,3,"<think>
+Okay, the user wants a two-paragraph synthesis on adopting climate-resilient crop varieties...."
+Agriculture & Farmers,openai/gpt-oss-20b,Q1,0.93,1333.83,3,"**Answer based on the provided context**
+
+The supplied context does **not** contain any mention of g..."
+Agriculture & Farmers,openai/gpt-oss-20b,Q2,0.61,1754.63,3,"```json
+{
+  ""source"": ""outside_database"",
+  ""note"": ""The following challenges are based on general k..."
+Agriculture & Farmers,openai/gpt-oss-20b,Q3,0.89,1402.8,3,The parliamentary debate on the long‑term environmental impact of current chemical fertilizer subsid...
+Agriculture & Farmers,openai/gpt-oss-20b,Q4,0.89,1210.36,3,**Policy gaps in linking rural farmers directly to the e‑NAM (National Agriculture Market) platform*...
+Agriculture & Farmers,openai/gpt-oss-20b,Q5,0.56,1354.7,3,The discussion on adopting climate‑resilient crop varieties centers on the urgent need to safeguard ...

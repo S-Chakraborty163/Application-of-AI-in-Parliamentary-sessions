@@ -1,0 +1,8 @@
+streamlit 
+groq chromadb 
+sentence-transformers 
+pdfplumber 
+pandas 
+openpyxl 
+requests 
+python-dotenv

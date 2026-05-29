@@ -1,0 +1,13 @@
+Topic,Model,Dashboard Wait Time (s),Tokens Processed
+Unemployment & Economy,llama-3.3-70b-versatile,3.84,3633
+Unemployment & Economy,llama-3.1-8b-instant,17.47,4036
+Unemployment & Economy,qwen/qwen3-32b,24.6,6176
+Unemployment & Economy,openai/gpt-oss-20b,10.82,6191
+Air Pollution & Environment,llama-3.3-70b-versatile,3.16,3782
+Air Pollution & Environment,llama-3.1-8b-instant,2.23,3785
+Air Pollution & Environment,qwen/qwen3-32b,6.68,6212
+Air Pollution & Environment,openai/gpt-oss-20b,2.29,5730
+Agriculture & Farmers,llama-3.3-70b-versatile,3.5,2360
+Agriculture & Farmers,llama-3.1-8b-instant,2.16,2430
+Agriculture & Farmers,qwen/qwen3-32b,9.89,4557
+Agriculture & Farmers,openai/gpt-oss-20b,2.61,5052

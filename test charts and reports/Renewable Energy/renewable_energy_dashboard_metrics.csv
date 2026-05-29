@@ -1,0 +1,5 @@
+Topic,Model,Dashboard Wait Time (s),Total Tokens
+Renewable Energy,llama-3.1-8b-instant,1.67,1418
+Renewable Energy,openai/gpt-oss-20b,1.91,2861
+Renewable Energy,llama-3.3-70b-versatile,2.43,1266
+Renewable Energy,qwen/qwen3-32b,5.35,3294

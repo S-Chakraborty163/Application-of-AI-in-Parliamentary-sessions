@@ -1,0 +1,5 @@
+Topic,Model,Dashboard Wait Time (s),Total Tokens
+Education & NEP,llama-3.1-8b-instant,1.79,3961
+Education & NEP,openai/gpt-oss-20b,2.12,5385
+Education & NEP,llama-3.3-70b-versatile,2.55,3647
+Education & NEP,qwen/qwen3-32b,4.36,5317
