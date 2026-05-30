@@ -33,33 +33,28 @@ from datetime import datetime
 # ─── SHARED CONFIG (mirrors Tab 2 exactly) ───────────────────────────────────
 
 ARENA_MODELS: list[str] = [
+
     "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "@cf/meta/llama-3-8b-instruct",
+    "@cf/meta/llama-4-scout-17b-16e-instruct",
     "@cf/google/gemma-3-12b-it",
     "@hf/mistral/mistral-7b-instruct-v0.2",
     "@cf/ibm-granite/granite-4.0-h-micro",
-    "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
-    "@cf/zai-org/glm-4.7-flash",
 ]
 
 MODEL_COLORS: dict[str, str] = {
-    "@cf/meta/llama-3.3-70b-instruct-fp8-fast":   "#4ECDC4",
-    "@cf/meta/llama-3-8b-instruct":                 "#FF6B6B",
-    "@cf/google/gemma-3-12b-it":                    "#F7B731",
+    "@cf/meta/llama-3.3-70b-instruct-fp8-fast":     "#4ECDC4",
+    "@cf/meta/llama-4-scout-17b-16e-instruct":      "#26DE81",
+    "@cf/google/gemma-3-12b-it":                    "#FED330",
     "@hf/mistral/mistral-7b-instruct-v0.2":         "#A55EEA",
     "@cf/ibm-granite/granite-4.0-h-micro":          "#45AAF2",
-    "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": "#2D98DA",
-    "@cf/zai-org/glm-4.7-flash":                    "#FA8231",
 }
 
 MODEL_LABELS: dict[str, str] = {
-    "@cf/meta/llama-3.3-70b-instruct-fp8-fast":   "Llama 3.3 · 70B",
-    "@cf/meta/llama-3-8b-instruct":                 "Llama 3.0 · 8B",
+    "@cf/meta/llama-3.3-70b-instruct-fp8-fast":     "Llama 3.3 · 70B",
+    "@cf/meta/llama-4-scout-17b-16e-instruct":      "Llama 4 · 17B",
     "@cf/google/gemma-3-12b-it":                    "Gemma 3 · 12B",
     "@hf/mistral/mistral-7b-instruct-v0.2":         "Mistral · 7B",
     "@cf/ibm-granite/granite-4.0-h-micro":          "Granite 4.0 · Micro",
-    "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": "DeepSeek R1 · 32B",
-    "@cf/zai-org/glm-4.7-flash":                    "GLM-4.7 · Flash",
 }
 
 PROMPT_TYPES = ["summary", "timeline", "ministry", "gaps"]
@@ -146,7 +141,7 @@ class ModelRun:
 
 # ─── API HELPERS ─────────────────────────────────────────────────────────────
 
-def _call(client, model_id, messages, max_tokens=1200, temperature=0.3):
+def _call(client, model_id, messages, max_tokens=4000, temperature=0.3):
     """Returns (text, latency, in_tok, out_tok). SDK handles 429 retries."""
     time.sleep(10)  # generous stagger for free-tier rate limits
     t0 = time.perf_counter()
@@ -157,6 +152,15 @@ def _call(client, model_id, messages, max_tokens=1200, temperature=0.3):
         )
         lat     = time.perf_counter() - t0
         text    = resp.choices[0].message.content or ""
+        
+        # Extract internal reasoning for models like GLM-4 or DeepSeek R1
+        try:
+            reasoning = getattr(resp.choices[0].message, "reasoning_content", None)
+            if reasoning:
+                text = f"**<think>**\n{reasoning}\n**</think>**\n\n" + text
+        except Exception:
+            pass
+            
         in_tok  = (resp.usage.prompt_tokens     if resp.usage else 0)
         out_tok = (resp.usage.completion_tokens if resp.usage else 0)
         return text, lat, in_tok, out_tok
@@ -171,7 +175,7 @@ def _run_one_inference(client, model_id, pt, context):
             {"role": "system", "content": SYS_PROMPT},
             {"role": "user",   "content": f"{INFERENCE_PROMPTS[pt]}\n\nDATA:\n{context}"},
         ],
-        max_tokens=1200, temperature=0.3,
+        max_tokens=4000, temperature=0.3,
     )
     return model_id, pt, text, lat, in_tok, out_tok
 
@@ -184,7 +188,7 @@ def _run_one_qa(client, model_id, question, rag_context):
             {"role": "system", "content": sys_msg},
             {"role": "user",   "content": question},
         ],
-        max_tokens=1024, temperature=0.5,
+        max_tokens=4000, temperature=0.5,
     )
     return model_id, question, text, lat, in_tok, out_tok
 
@@ -453,19 +457,10 @@ def render_arena_tab(ai_engine) -> None:
             max_retries=0,
         )
 
-        # RAG context (one retrieval, shared across all models — identical to Tab 3)
-        with st.spinner("Retrieving RAG context from Pinecone …"):
-            try:
-                docs = ai_engine.retrieve(qa_inputs[0] if qa_inputs else "policy overview")
-                rag_context = (
-                    "\n---\n".join(d["text"] for d in docs)
-                    if docs else "No parliamentary records found in current database."
-                )
-            except Exception as e:
-                rag_context = f"RAG error: {e}"
+        rag_context = raw_context
 
         def _parse_scores(raw: str) -> dict:
-            cleaned = re.sub(r"<think>.*?</think>", "", raw, flags=re.DOTALL)
+            cleaned = re.sub(r"\**<think>\**.*?\**</think>\**", "", raw, flags=re.DOTALL)
             cleaned = re.sub(r"```[a-zA-Z]*", "", cleaned).replace("```", "").strip()
             # Strategy 1: greedy outermost { ... }
             match = re.search(r"\{(.+)\}", cleaned, re.DOTALL)

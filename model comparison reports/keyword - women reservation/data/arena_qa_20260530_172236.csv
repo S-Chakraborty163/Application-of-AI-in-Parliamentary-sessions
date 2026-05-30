@@ -1,0 +1,120 @@
+Model,Question,Answer,Latency (s),Output Tokens,Input Tokens
+Llama 3.3 · 70B,What is the current implementation status of this policy?,"Based on the provided context, I couldn't find any information on the current implementation status of the Women Reservation policy. The context contains various dates and titles related to the policy, but it doesn't provide any details on its current implementation status.
+
+Using general knowledge, I can tell you that the Women Reservation Bill, which aims to reserve 33% of seats in the Indian Parliament and state legislatures for women, has been pending for several years. The bill was first introduced in 1996 and has been reintroduced several times, but it has not yet been passed.
+
+As of my knowledge cutoff, the bill is still pending, and its implementation status is unclear. However, some states in India have implemented women's reservation in local bodies, such as panchayats and municipalities, with varying degrees of success.
+
+To get the most up-to-date information on the current implementation status of the Women Reservation policy, I recommend checking with the Indian government's official websites or reputable news sources.",6.144,198,622
+Llama 3.3 · 70B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of Law and Justice has been the most active in responding to the topic of Women Reservation, with a total of 11 mentions. This suggests that the ministry has been consistently engaged with the issue over the years, introducing and discussing various bills related to women's reservation in different spheres, including legislature and jobs.",3.13,70,624
+Llama 3.3 · 70B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided context, the key unresolved issues raised by parliamentarians related to women's reservation are:
+
+1. **Passage of the Women Reservation Bill**: The bill has been introduced and discussed multiple times in the parliament since 2003, but it has not been passed yet. This is evident from the multiple entries in the context with titles like ""Women Reservation Bill"" across different dates and ministries.
+
+2. **Reservation for Women in Legislature**: The issue of reserving seats for women in the legislature has been a topic of discussion, as seen in the entry dated 26.07.2024, Ministry of Law and Justice, titled ""Women Reservation in Legislature"".
+
+3. **Implementation of Women Reservation in Panchayats**: While there have been discussions on women's reservation in panchayats, as seen in entries dated 18.05.2006 and 24.11.2016, the effective implementation and the challenges faced in this regard might still be an unresolved issue.
+
+4. **Women Reservation in Jobs and Education**: Entries like the one dated 08.12.2023, Ministry of Women and Child Development, titled ""Women Reservation in Jobs"", and dated 24.06.2019, Ministry of Human Resource Development, titled ""Women Reservation in Central Universities"", indicate that reservation for women in employment and educational institutions is another area of concern.
+
+5. **Reservation for Women in Elections to Cantonment Boards**: As mentioned in the entry dated 20.04.2005, Ministry of Defence, titled ""RESERVATION FOR WOMEN IN ELECTIONS TO CANTONMENT BOARDS"", this specific issue highlights the broader challenge of ensuring women's representation in various governance bodies.
+
+These issues suggest that despite ongoing discussions and proposals, the parliamentarians continue to grapple with the challenges of ensuring adequate representation and reservation for women across different sectors and governance levels. 
+
+Please note that the information provided is based on the context and might not reflect the current status or the complete range of issues, as the context only provides a snapshot of discussions up to a certain point in time. For the most recent and detailed information, further research or access to more current parliamentary records would be necessary.",11.712,446,623
+Llama 4 · 17B,What is the current implementation status of this policy?,"The current implementation status of the Women Reservation policy in India is as follows:
+
+The Constitution (One Hundred and Twenty-Eighth Amendment) Act, 2023, which provides for 33% reservation for women in the Lok Sabha and state legislative assemblies, received the assent of the President on 28 September 2023. 
+
+The Act amends Articles 75 and 164 of the Constitution, enabling the reservation of 33% of the total number of seats for women in the Lok Sabha, legislative assemblies of the states, and the Legislative Council of Delhi. 
+
+The reservation is based on the population of the states and the total number of seats allocated to each state in the Lok Sabha or legislative assemblies. The Act also provides for the delimitation of constituencies to give effect to the reservation.
+
+The Act is expected to come into effect after the delimitation exercise is undertaken. The process of delimitation is yet to begin. 
+
+However, some state governments have already implemented 33% reservation for women in local bodies such as panchayats and municipal bodies. 
+
+For instance, in 2019, the Ministry of Panchayati Raj reported that 24 states/UTs have provided 33% reservation for women in panchayats.",3.044,250,596
+Llama 4 · 17B,Which ministry has been most active in responding to this topic?,"The Ministry of Law and Justice has been the most active in responding to the topic of Women Reservation, with multiple entries (14) in the provided context. 
+
+These entries include discussions on the Women Reservation Bill, women reservations in panchayats and legislatures, and other related topics, indicating a high level of engagement from the Ministry of Law and Justice on this issue.",1.416,75,598
+Llama 4 · 17B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided context, several key unresolved issues related to women's reservation in India have been raised by parliamentarians over the years. Some of the prominent concerns and issues include:
+
+1. **Delimitation and Census**: One of the significant issues is the need for delimitation of constituencies and the conduct of a census before implementing the women's reservation bill. This is crucial for determining the number of seats reserved for women.
+
+2. **Implementation Timeline**: There have been concerns about the timeline for implementing the women's reservation bill. Some parliamentarians have urged for its immediate implementation, while others have sought more time for consideration.
+
+3. **Coverage and Scope**: Questions have been raised about the coverage and scope of the women's reservation bill, including whether it will apply to all states and Union territories uniformly.
+
+4. **Reservation for Other Marginalized Groups**: Some parliamentarians have raised concerns about the need for reservations for other marginalized groups, such as Scheduled Castes (SCs) and Scheduled Tribes (STs), within the women's quota.
+
+5. **Efficacy of Reservations**: There have been debates about the efficacy of reservations in ensuring women's empowerment and representation. Some argue that reservations are essential for increasing women's participation, while others believe that they may not necessarily lead to more effective representation.
+
+6. **Constitutional Amendments**: The women's reservation bill requires a constitutional amendment, which has been a contentious issue. Some parliamentarians have raised concerns about the need for a constitutional amendment and the process involved.
+
+7. **Political Will and Consensus**: There have been concerns about the lack of political will and consensus on the women's reservation bill. Some parliamentarians have urged for a broader consensus across parties to ensure the bill's passage.
+
+8. **Impact on Existing Representation**: Some parliamentarians have raised concerns about the potential impact of women's reservation on the existing representation of women in Parliament and state legislatures.
+
+These issues highlight some of the key concerns and challenges that have been raised by parliamentarians regarding women's reservation in India. However, it is essential to note that the specific concerns and priorities may have evolved over time and may vary across different parliamentarians and parties.",5.162,430,597
+Gemma 3 · 12B,What is the current implementation status of this policy?,"Based on the provided parliamentary records, the topic of women's reservation has been extensively discussed and considered in India across various sectors and levels of government. Here's a summary of the policy's current implementation status, synthesized from the context:
+
+*   **Panchayats:** Women's reservation in Panchayats is implemented. (See records from 26.04.2010 and 18.05.2006)
+*   **Central Universities:** There is a policy of women's reservation in Central Universities. (See record from 24.06.2019)
+*   **Legislature:** There are ongoing discussions and legislative efforts regarding women's reservation in the legislature. (See records from 26.07.2024, and multiple entries related to the ""Women Reservation Bill"" from various years).
+*   **Jobs:** There are discussions about women's reservation in jobs. (See record from 08.12.2023)
+*   **Parliament:** Historically, there have been discussions and attempts to legislate reservation for women in Parliament. (See record from 21.07.2003)
+
+**Overall:** While reservation for women exists in Panchayats, Central Universities, and is being considered for jobs, the implementation of reservation for women in the legislature (specifically Parliament) remains a subject of ongoing legislative efforts and debate.
+
+**Please note:** My analysis is based solely on the provided context. For a definitive and up-to-the-minute understanding of the policy's implementation status, consulting official government sources and legal databases is recommended.",5.423,351,651
+Gemma 3 · 12B,Which ministry has been most active in responding to this topic?,"Based on the provided parliamentary records, the **Law and Justice Ministry** has been most active in responding to the topic of women's reservation, with 13 entries. Other ministries like Women and Child Development, Panchayati Raj, and Human Resource Development have also addressed the issue, but to a lesser extent.",1.607,64,653
+Gemma 3 · 12B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided parliamentary records, the key unresolved issue surrounding women's reservation appears to be the passage of the **Women's Reservation Bill**. Numerous entries (dating back to 2003 and continuing through 2024) indicate repeated discussions and consideration of this bill across various ministries, including Law and Justice, Women and Child Development, Panchayati Raj, and Human Resource Development.
+
+While the records detail discussions on women's reservation in various sectors—Panchayats, Central Universities, Cantonment Boards, and jobs—the persistent focus on the ""Women's Reservation Bill"" itself suggests that the core legislative framework for reservation, particularly in the legislature, remains a point of ongoing debate and has not been definitively resolved.
+
+**Please note:** The context provided doesn't detail *specific* issues raised by parliamentarians *within* those discussions. It only indicates the recurring nature of the bill's consideration. To understand the specific unresolved issues, a deeper dive into the content of those parliamentary records would be necessary.",3.206,212,652
+Mistral · 7B,What is the current implementation status of this policy?," Based on the provided context, there have been numerous discussions and proposed bills regarding women reservation in various sectors such as panchayats, jobs, universities, legislature, and cantonment boards in different ministries since 2003. However, the context does not provide sufficient information about the current implementation status of the policy. For the most accurate and up-to-date information, it is recommended to check the latest records or announcements from the relevant ministries or government websites.",6.47,102,775
+Mistral · 7B,Which ministry has been most active in responding to this topic?," Based on the provided context, the Ministry of Law and Justice has been the most active in responding to the topic of women reservation, with a total of 11 instances.",2.891,37,777
+Mistral · 7B,What are the key unresolved issues raised by parliamentarians?," Based on the provided context, the key unresolved issues raised by parliamentarians regarding women reservation include:
+
+1. Implementation of the Women Reservation Bill in the Parliament and State Legislatures.
+2. Extension of women reservation in Panchayats and local bodies to ensure equal representation.
+3. Women reservation in jobs, particularly in the public sector and in decision-making positions.
+4. Ensuring effective implementation and monitoring of women reservation policies.
+5. Addressing challenges such as lack of awareness, socio-economic factors, and political opposition to women's participation in governance.
+
+It is important to note that the context does not contain specific information on the current status or resolution of these issues.",10.039,156,777
+Granite 4.0 · Micro,What is the current implementation status of this policy?,"The most recent mention of the Women Reservation policy in the provided parliamentary records is from 26.07.2024, titled ""Women Reservation in Legislature"" under the Ministry of LAW AND JUSTICE. This suggests that the policy is currently under consideration or being implemented at the legislative level. 
+
+The bill has been introduced and discussed in several parliamentary sessions from 2003 to 2024, with various ministries (WOMEN AND CHILD DEVELOPMENT, PANCHAYATI RAJ, LAW AND JUSTICE, HUMAN RESOURCE DEVELOPMENT) proposing and debating it. However, the specific status of its implementation is not detailed in the given context.",4.405,131,600
+Granite 4.0 · Micro,Which ministry has been most active in responding to this topic?,"Based on the parliamentary records provided, the **LAW AND JUSTICE ministry** has been the most active in responding to the Women Reservation topic. 
+
+The Women Reservation Bill appears in records from multiple dates spanning from 2003 to 2024, with entries specifically under this ministry in 2010, 2016, 2016, 2018, 2016, 2017, 2019, 2021, and 2024. This indicates consistent legislative attention and action from LAW AND JUSTICE on this issue.",4.048,111,602
+Granite 4.0 · Micro,What are the key unresolved issues raised by parliamentarians?,"Based on the parliamentary records provided, the key unresolved issues raised by parliamentarians regarding women's reservation are:
+
+1. **The optimal percentage of reservation**  
+   - Parliamentarians have debated whether 33% reservation for women in the Lok Sabha and State Assemblies is sufficient or if a higher percentage should be considered.  
+   - Some have questioned whether 33% is the ""maximum"" that can be practically achieved.
+
+2. **Reservation in the Lok Sabha vs. State Assemblies**  
+   - There have been discussions about whether the 33% reservation should apply uniformly to both the Lok Sabha (the national parliament) and state legislatures, or if different provisions should be made for each level of government.
+
+3. **Reservation in the Rajya Sabha**  
+   - The issue of whether women should also have a reservation in the upper house, the Rajya Sabha, has been raised but not resolved.  
+   - Parliamentarians have debated the feasibility and necessity of extending the reservation to the Rajya Sabha.
+
+4. **Reservation in Panchayats and Municipalities**  
+   - While there have been specific bills and discussions on women's reservation in Panchayats (local government bodies), the broader issue of extending similar reservations to municipalities and other local bodies remains unresolved.
+
+5. **Implementation and monitoring of the existing reservation**  
+   - Parliamentarians have questioned the mechanisms for effectively implementing the existing 33% reservation and ensuring compliance.  
+   - There have been calls for better monitoring, accountability, and periodic reviews to assess the impact of the reservation on women's participation in politics.
+
+6. **Balancing the interests of women across different sectors**  
+   - Discussions have touched upon how the reservation should balance the representation of women in elected bodies versus other roles such as appointments in ministries or central universities.
+
+7. **Public opinion and societal acceptance**  
+   - Some parliamentarians have highlighted the need to consider public perception and societal acceptance of women in politics, suggesting that a higher reservation could face resistance.
+
+These points reflect the ongoing deliberations and unresolved questions that parliamentarians have raised about the implementation, scope, and effectiveness of women's reservation in Indian politics.",13.415,437,601

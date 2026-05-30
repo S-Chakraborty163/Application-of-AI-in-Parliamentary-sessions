@@ -721,29 +721,24 @@ with tab2:
 
         ALL_ARENA_MODELS = [
             "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-            "@cf/meta/llama-3-8b-instruct",
+            "@cf/meta/llama-4-scout-17b-16e-instruct",
             "@cf/google/gemma-3-12b-it",
             "@hf/mistral/mistral-7b-instruct-v0.2",
             "@cf/ibm-granite/granite-4.0-h-micro",
-            "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
-            "@cf/zai-org/glm-4.7-flash",
         ]
         MODEL_COLORS_TAB2 = {
             "@cf/meta/llama-3.3-70b-instruct-fp8-fast":     "#4ECDC4",
-            "@cf/meta/llama-3-8b-instruct":                 "#FF6B6B",
-            "@cf/google/gemma-3-12b-it":                    "#F7B731",
+            "@cf/meta/llama-4-scout-17b-16e-instruct":      "#26DE81",
+            "@cf/google/gemma-3-12b-it":                    "#FED330",
             "@hf/mistral/mistral-7b-instruct-v0.2":         "#A55EEA",
             "@cf/ibm-granite/granite-4.0-h-micro":          "#00F0FF",
-            "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": "#45AAF2",
-            "@cf/zai-org/glm-4.7-flash":                    "#FA8231",
         }
         MODEL_LABELS_TAB2 = {
-            "@cf/meta/llama-3.3-70b-instruct-fp8-fast":   "Llama 3.3 · 70B",
-            "@cf/meta/llama-3-8b-instruct":                 "Llama 3.0 · 8B",
+            "@cf/meta/llama-3.3-70b-instruct-fp8-fast":     "Llama 3.3 · 70B",
+            "@cf/meta/llama-4-scout-17b-16e-instruct":      "Llama 4 · 17B",
             "@cf/google/gemma-3-12b-it":                    "Gemma 3 · 12B",
             "@hf/mistral/mistral-7b-instruct-v0.2":         "Mistral · 7B",
-            "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": "DeepSeek R1 · 32B",
-            "@cf/zai-org/glm-4.7-flash":                    "GLM-4.7 · Flash",
+            "@cf/ibm-granite/granite-4.0-h-micro":          "Granite 4.0 · Micro",
         }
 
         # ── Model selector for batch runs ──────────────────────────────────────

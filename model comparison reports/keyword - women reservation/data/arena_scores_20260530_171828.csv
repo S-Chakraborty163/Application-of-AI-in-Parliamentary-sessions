@@ -1,0 +1,6 @@
+Model,Progress (/100),Impact (/100),Reason,Score Latency (s)
+Llama 3.3 · 70B,80,90,Ongoing legislative efforts,2.47
+Llama 4 · 17B,85,90,Multiple attempts at women reservation legislation over two decades,0.919
+Gemma 3 · 12B,85,92,Consistent legislative focus on women's reservation across various sectors and levels.,1.098
+Mistral · 7B,100,80,Multiple instances of Women Reservation bills and policies across various ministries,3.099
+Granite 4.0 · Micro,100,100,Full dataset processed successfully.,1.313

@@ -1,6 +1,0 @@
-Model,Progress (/100),Impact (/100),Reason,Score Latency (s)
-Llama 3.3 · 70B,80,90,Damodar River projects,1.922
-Llama 3.0 · 8B,80,60,"Incomplete data, some records missing",2.587
-Gemma 3 · 12B,65,78,Frequent mentions of DVC and pollution indicate ongoing environmental and power concerns.,1.139
-Mistral · 7B,50,75,"Parliamentary records show various initiatives related to Damodar River, impacting both water resources and industries.",4.245
-Granite 4.0 · Micro,50,60,Damodar River pollution and CSR initiatives discussed across ministries.,1.631

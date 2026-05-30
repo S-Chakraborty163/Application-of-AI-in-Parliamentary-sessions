@@ -1,0 +1,307 @@
+Model,Prompt Type,Latency (s),Output Tokens,Input Tokens,Output Text
+Llama 3.3 · 70B,Executive Summary,10.599,289,625,"The topic of women's reservation has been discussed in various parliamentary sessions across multiple ministries. The Ministry of Law and Justice has been a key player in these discussions, with numerous titles related to the Women Reservation Bill appearing in the data from 2003 to 2024. This suggests that the bill has been a longstanding issue, with ongoing efforts to address and potentially pass the legislation.
+
+In addition to the Ministry of Law and Justice, other ministries have also engaged with the topic of women's reservation. The Ministry of Panchayati Raj has discussed women's reservation in panchayats, while the Ministry of Women and Child Development has addressed women's reservation in jobs and other areas. The Ministry of Human Resource Development has also touched on the issue, specifically in relation to women's reservation in central universities. This breadth of ministerial involvement indicates that women's reservation is a complex issue with implications for various aspects of society.
+
+The data spans over two decades, from 2003 to 2024, demonstrating a long-term commitment to addressing women's reservation. The frequency and consistency of discussions across different ministries suggest that the issue remains a priority. The most recent entries in the data, including titles such as ""Women Reservation in Legislature"" and ""Women Reservation,"" indicate that the conversation is ongoing and continues to evolve. Overall, the data provides a snapshot of the parliamentary discussions surrounding women's reservation, highlighting the complexity and endurance of this policy issue."
+Llama 3.3 · 70B,Progression Timeline,12.03,507,621,"### Policy Progression Timeline
+* 2003 
+  + 24.02: Introduction of the Women Reservation Bill by the Ministry of Law & Justice
+  + 21.07: Discussion on Reservation for Women in Parliament by the Ministry of Law & Justice
+* 2005 
+  + 20.04: Consideration of Reservation for Women in Elections to Cantonment Boards by the Ministry of Defence
+* 2006 
+  + 18.05: Focus on Women Reservation in Panchayats by the Ministry of Panchayat Raj
+* 2007 
+  + 20.08: Revisit of the Women Reservation Bill by the Ministry of Law & Justice
+* 2008 
+  + 21.04: Continued discussion on the Women Reservation Bill by the Ministry of Law & Justice
+* 2010 
+  + 26.04: Women Reservation discussed by the Ministry of Panchayat Raj
+* 2014 
+  + 21.02: Women Reservation considered by the Ministry of Women and Child Development
+  + 05.12: Women Reservation Bill revisited by the Ministry of Law & Justice
+* 2016 
+  + 24.11: Women Reservations in Panchayats discussed by the Ministry of Panchayat Raj
+  + 07.12: Women Reservation Bill considered by the Ministry of Law and Justice
+* 2017 
+  + 20.12: Ongoing discussion on the Women Reservation Bill by the Ministry of Law and Justice
+* 2018 
+  + 08.08: Women Reservation Bill revisited by the Ministry of Law and Justice
+* 2019 
+  + 24.06: Women Reservation in Central Universities discussed by the Ministry of Human Resource Development
+  + 17.07: Women Reservation Bill considered by the Ministry of Law and Justice
+* 2021 
+  + 03.12: Women Reservation Bill revisited by the Ministry of Law and Justice
+* 2022 
+  + 25.03: Continued discussion on the Women Reservation Bill by the Ministry of Law and Justice
+* 2023 
+  + 08.12: Women Reservation in Jobs considered by the Ministry of Women and Child Development
+* 2024 
+  + 02.02: Women Reservation discussed by the Ministry of Law and Justice
+  + 26.07: Women Reservation in Legislature considered by the Ministry of Law and Justice"
+Llama 3.3 · 70B,Ministry Engagement,3.011,122,618,"The government ministries engaged in the topic of women reservation are:
+
+1. Ministry of Women and Child Development: Their jurisdiction includes women reservation in jobs and general women reservation policies.
+2. Ministry of Panchayati Raj: Their jurisdiction includes women reservation in panchayats.
+3. Ministry of Law and Justice: Their jurisdiction includes the Women Reservation Bill, women reservation in the legislature, and reservation for women in parliament.
+4. Ministry of Human Resource Development: Their jurisdiction includes women reservation in central universities.
+5. Ministry of Defence: Their jurisdiction includes reservation for women in elections to cantonment boards."
+Llama 3.3 · 70B,Policy Gaps,4.057,145,622,"Policy gaps exist in the implementation and passage of the Women Reservation Bill, as it has been repeatedly discussed and introduced across various ministries, including Law and Justice, Women and Child Development, and Panchayati Raj, over a period of two decades. 
+
+Repeatedly asked questions and unresolved issues include:
+
+1. The status and progress of the Women Reservation Bill.
+2. The implementation of women's reservations in various sectors, such as panchayats, central universities, and jobs.
+3. The provision of reservation for women in elections to cantonment boards and legislature.
+
+These issues remain unresolved, as evidenced by the frequent titles and discussions on the Women Reservation Bill, indicating a lack of concrete action and policy implementation."
+Llama 4 · 17B,Executive Summary,4.149,279,599,"Here is a 3-paragraph executive summary of the discussions regarding women reservation based on the provided parliamentary data:
+
+The issue of women reservation has been a topic of discussion in parliament for several years, with multiple ministries contributing to the debate. The Ministry of Law and Justice has been the most active in this regard, with numerous discussions on the Women Reservation Bill taking place between 2003 and 2024. Other ministries, such as Panchayati Raj, Women and Child Development, and Human Resource Development, have also engaged in discussions on women reservation in various contexts.
+
+The discussions on women reservation have covered a range of topics, including reservation in panchayats, parliament, and central universities. There have been multiple instances of the Women Reservation Bill being discussed, with the earliest recorded discussion dating back to 2003. The Ministry of Panchayati Raj has also discussed women reservation in panchayats on several occasions, with discussions taking place in 2006, 2010, and 2016.
+
+The frequency and continuity of discussions on women reservation suggest a sustained effort to address the issue of women's representation in various spheres. The involvement of multiple ministries and the range of topics covered indicate a comprehensive approach to promoting women's participation and representation. The data suggests that parliament has been actively engaged in discussing and exploring ways to increase women's representation, with a focus on legislative and administrative measures."
+Llama 4 · 17B,Progression Timeline,7.114,523,594,"### Women Reservation Policy Progression Timeline
+
+#### Early Initiatives
+- **24.02.2003**: Ministry of LAW & JUSTICE, Title: WOMEN RESERVATION BILL
+- **20.04.2005**: Ministry of DEFENCE, Title: RESERVATION FOR WOMEN IN ELECTIONS TO CANTONMENT BOARDS
+- **21.07.2003**: Ministry of LAW & JUSTICE, Title: RESERVATION FOR WOMEN IN PARLIAMENT
+- **18.05.2006**: Ministry of PANCHAYAT RAJ, Title: WOMEN RESERVATION IN PANCHAYATS
+
+#### Expansion and Discussions
+- **26.04.2010**: Ministry of PANCHAYATI RAJ, Title: WOMEN RESERVATION
+- **20.08.2007**: Ministry of LAW & JUSTICE, Title: WOMEN RESERVATION BILL
+- **21.04.2008**: Ministry of LAW & JUSTICE, Title: WOMEN RESERVATION BILL
+
+#### Continued Efforts
+- **07.12.2016**: Ministry of LAW AND JUSTICE, Title: Women Reservation Bill
+- **24.11.2016**: Ministry of PANCHAYATI RAJ, Title: Women Reservations in Panchayats
+- **05.12.2014**: Ministry of LAW & JUSTICE, Title: Women Reservation Bill
+- **21.02.2014**: Ministry of WOMEN AND CHILD DEVELOPMENT, Title: WOMEN RESERVATION
+
+#### Recent Developments
+- **08.08.2018**: Ministry of LAW AND JUSTICE, Title: Women Reservation Bill
+- **20.12.2017**: Ministry of LAW AND JUSTICE, Title: Women Reservation Bill
+- **17.07.2019**: Ministry of LAW AND JUSTICE, Title: Women Reservation Bill
+- **24.06.2019**: Ministry of HUMAN RESOURCE DEVELOPMENT, Title: Women Reservation in Central Universities
+
+#### Latest Updates
+- **03.12.2021**: Ministry of LAW AND JUSTICE, Title: Women Reservation Bill
+- **25.03.2022**: Ministry of LAW AND JUSTICE, Title: Women Reservation Bill
+- **08.12.2023**: Ministry of WOMEN AND CHILD DEVELOPMENT, Title: Women Reservation in Jobs
+- **02.02.2024**: Ministry of LAW AND JUSTICE, Title: Women Reservation
+- **26.07.2024**: Ministry of LAW AND JUSTICE, Title: Women Reservation in Legislature"
+Llama 4 · 17B,Ministry Engagement,2.58,212,592,"The government ministries engaged in the topic of women reservation are:
+
+1. **Ministry of Law and Justice**: This ministry has made the most responses (12 times) on the topic of women reservation, specifically on the Women Reservation Bill, women reservation in legislature, and other related issues.
+
+2. **Ministry of Panchayati Raj**: This ministry has made 3 responses on the topic, specifically on women reservation in panchayats.
+
+3. **Ministry of Women and Child Development**: This ministry has made 2 responses on the topic, specifically on women reservation and women reservation in jobs.
+
+4. **Ministry of Human Resource Development**: This ministry has made 1 response on the topic, specifically on women reservation in central universities.
+
+5. **Ministry of Defence**: This ministry has made 1 response on the topic, specifically on reservation for women in elections to cantonment boards.
+
+These ministries have varying jurisdictions and responses, primarily focused on promoting women's representation and participation in various sectors, including government, education, and local governance."
+Llama 4 · 17B,Policy Gaps,3.472,295,595,"**Policy Gaps:**
+
+1. **Lack of Clear Implementation Timeline**: Despite numerous discussions and proposals, a concrete timeline for implementing women reservation in various sectors, such as legislature, panchayats, and jobs, is not evident.
+2. **Inconsistent Ministry Involvement**: Multiple ministries, including Law and Justice, Panchayati Raj, Women and Child Development, and Human Resource Development, have been involved in discussions on women reservation, indicating a lack of coordination and clear ownership.
+3. **Inadequate Focus on Specific Sectors**: Certain sectors, such as central universities and cantonment boards, have had limited discussion on women reservation, suggesting potential gaps in policy coverage.
+
+**Repeatedly Asked Questions:**
+
+1. What is the status of the Women Reservation Bill?
+2. When will women reservation be implemented in various sectors, such as legislature, panchayats, and jobs?
+3. What measures will be taken to ensure effective implementation and monitoring of women reservation policies?
+
+**Unresolved Issues:**
+
+1. **Effective Implementation Mechanisms**: The records do not provide clear details on how women reservation policies will be implemented, monitored, and enforced across various sectors.
+2. **Addressing Resistance or Challenges**: There is no indication of how potential resistance or challenges to implementing women reservation policies will be addressed.
+3. **Ensuring Adequate Representation**: The records do not provide assurance that women reservation policies will lead to adequate representation of women in decision-making bodies and sectors."
+Gemma 3 · 12B,Executive Summary,3.975,242,654,"Discussions surrounding women's reservation have been a recurring topic across multiple ministries in India. The Law and Justice Ministry has consistently addressed the issue, with numerous entries referencing the ""Women Reservation Bill"" dating back to 2003 and continuing through 2024. Other ministries, including Panchayati Raj, Women and Child Development, Human Resource Development, Defence, and Panchayat Raj, have also engaged with the topic, demonstrating its broad relevance across government functions.
+
+Specific areas of focus within the broader discussion of women's reservation include Panchayats, Central Universities, elections to Cantonment Boards, and jobs. The Panchayati Raj Ministry has held discussions on ""Women Reservations in Panchayats"" and ""Women Reservation in Panchayats,"" while the Human Resource Development Ministry addressed ""Women Reservation in Central Universities."" The Women and Child Development Ministry has specifically considered ""Women Reservation in Jobs.""
+
+Recent discussions, as of 2024, have centered on women's reservation in the legislature, alongside continued consideration of the ""Women Reservation Bill"" by the Law and Justice Ministry. This ongoing engagement across various ministries highlights the sustained policy interest in advancing women's representation in different sectors."
+Gemma 3 · 12B,Progression Timeline,7.122,517,649,"## Women Reservation Policy Progression Timeline
+
+Here's a timeline of policy activity related to women's reservation, based solely on the provided data:
+
+*   **24.02.2003:** LAW & JUSTICE - WOMEN RESERVATION BILL
+*   **21.07.2003:** LAW & JUSTICE - RESERVATION FOR WOMEN IN PARLIAMENT
+*   **20.04.2005:** DEFENCE - RESERVATION FOR WOMEN IN ELECTIONS TO CANTONMENT BOARDS
+*   **18.05.2006:** PANCHAYAT RAJ - WOMEN RESERVATION IN PANCHAYATS
+*   **20.08.2007:** LAW & JUSTICE - WOMEN RESERVATION BILL
+*   **21.04.2008:** LAW & JUSTICE - WOMEN RESERVATION BILL
+*   **26.04.2010:** PANCHAYATI RAJ - WOMEN RESERVATION
+*   **17.07.2019:** LAW AND JUSTICE - Women Reservation Bill
+*   **24.06.2019:** HUMAN RESOURCE DEVELOPMENT - Women Reservation in Central Universities
+*   **03.12.2021:** LAW AND JUSTICE - Women Reservation Bill
+*   **25.03.2022:** LAW AND JUSTICE - Women Reservation Bill
+*   **02.02.2024:** LAW AND JUSTICE - Women Reservation
+*   **08.12.2023:** WOMEN AND CHILD DEVELOPMENT - Women Reservation in Jobs
+*   **26.07.2024:** LAW AND JUSTICE - Women Reservation in Legislature
+*   **21.02.2014:** WOMEN AND CHILD DEVELOPMENT - WOMEN RESERVATION
+*   **24.11.2016:** PANCHAYATI RAJ - Women Reservations in Panchayats
+*   **07.12.2016:** LAW AND JUSTICE - Women Reservation Bill
+*   **08.08.2018:** LAW AND JUSTICE - Women Reservation Bill
+*   **20.12.2017:** LAW AND JUSTICE - Women Reservation Bill
+*   **05.12.2014:** LAW & JUSTICE - Women Reservation Bill"
+Gemma 3 · 12B,Ministry Engagement,1.824,120,646,"The following government ministries are engaged in this topic:
+
+*   **WOMEN AND CHILD DEVELOPMENT:** Jurisdiction includes Women Reservation and Women Reservation in Jobs.
+*   **PANCHAYATI RAJ:** Jurisdiction includes Women Reservation and Women Reservations in Panchayats.
+*   **LAW AND JUSTICE:** Jurisdiction includes Women Reservation Bill, Women Reservation, Reservation for Women in Parliament, and Women Reservation in Legislature.
+*   **HUMAN RESOURCE DEVELOPMENT:** Jurisdiction includes Women Reservation in Central Universities.
+*   **DEFENCE:** Jurisdiction includes Reservation for Women in Elections to Cantonment Boards.
+
+
+
+"
+Gemma 3 · 12B,Policy Gaps,2.501,171,650,"**Policy Gaps:**
+
+*   Implementation across various sectors: While women's reservation is discussed in Panchayats, Central Universities, jobs, legislature, and Cantonment Boards, the records do not detail consistent implementation across all these areas.
+*   Legislative Status: The repeated appearance of ""Women Reservation Bill"" across multiple dates and ministries suggests the legislation has not been finalized or enacted.
+*   Parliamentary Representation: Specific attention is given to ""Reservation for Women in Parliament,"" indicating a potential gap in achieving adequate representation at the national level.
+
+**Repeatedly Asked Questions/Unresolved Issues:**
+
+*   The passage of the ""Women Reservation Bill"" is a recurring issue.
+*   Women's reservation in Panchayats is a repeated topic.
+*   Reservation for women in elections is a persistent concern."
+Mistral · 7B,Executive Summary,23.067,360,778," Executive Summary:
+
+The parliamentary data spanning from 2003 to 2024 reveals an ongoing discourse surrounding women reservation in various sectors of governance and education in India. Multiple ministries, including Women and Child Development, Panchayati Raj, Law and Justice, Human Resource Development, and Defense, have addressed this issue through numerous meetings and bills.
+
+The earliest recorded discussions date back to 2003, when the Law and Justice Ministry deliberated on the Women Reservation Bill. This was followed by several other instances, including discussions on women reservations in Panchayats in 2006 and 2016, and in central universities in 2019. In 2014, the Law and Justice Ministry once again took up the Women Reservation Bill. Subsequent meetings in 2017, 2018, 2019, 2021, 2022, and 2023 continued the dialogue, with the Women and Child Development Ministry addressing women reservation in jobs in 2023 and the Law and Justice Ministry discussing women reservation in the legislature in 2024.
+
+Throughout these discussions, the focus has been on implementing reservations for women in various sectors to ensure equal representation and opportunities. The specifics of the reservation policies and bills have varied, with some addressing reservations in local governance, education, and legislative bodies, while others have focused on elections to cantonment boards. Despite the consistent attention given to this issue, the data does not provide clear evidence of any concrete legislation or policy changes resulting from these discussions."
+Mistral · 7B,Progression Timeline,31.952,508,777," ```markdown
+## Timeline of Women Reservation Policy in India
+
+### Early Initiatives (2003-2008)
+- 21.04.2003: Women Reservation Bill, Ministry of Law & Justice
+- 18.05.2006: Women Reservation in Panchayats, Ministry of Panchayat Raj
+- 21.07.2003: Reservation for Women in Parliament, Ministry of Law & Justice
+- 20.08.2007: Women Reservation Bill, Ministry of Law & Justice
+- 20.04.2005: Reservation for Women in Elections to Cantonment Boards, Ministry of Defence
+
+### Women Reservation in Panchayats (2010-2016)
+- 26.04.2010: Women Reservation, Ministry of Panchayat Raj
+- 24.11.2016: Women Reservations in Panchayats, Ministry of Panchayat Raj
+
+### Women Reservation Bill (2016-2024)
+- 07.12.2016: Women Reservation Bill, Ministry of Law and Justice
+- 20.12.2017: Women Reservation Bill, Ministry of Law and Justice
+- 17.07.2019: Women Reservation Bill, Ministry of Law and Justice
+- 24.06.2019: Women Reservation in Central Universities, Ministry of Human Resource Development
+- 03.12.2021: Women Reservation Bill, Ministry of Law and Justice
+- 25.03.2022: Women Reservation Bill, Ministry of Law and Justice
+- 08.12.2023: Women Reservation in Jobs, Ministry of Women and Child Development
+- 26.07.2024: Women Reservation in Legislature, Ministry of Law and Justice
+
+### Recent Developments (2022-2024)
+- 02.02.2024: Women Reservation, Ministry of Law and Justice
+```"
+Mistral · 7B,Ministry Engagement,20.065,314,774," The ministries engaged in the topic of women reservation are:
+
+1. Ministry of Women and Child Development: This ministry has addressed women reservation in jobs on 08.12.2023.
+2. Ministry of Panchayat Raj: This ministry has discussed women reservations in panchayats on multiple occasions, including on 26.04.2010, 24.11.2016, and 25.03.2022.
+3. Ministry of Law and Justice: This ministry has addressed the Women Reservation Bill on numerous occasions, including on 21.02.2014, 07.12.2016, 20.12.2017, 08.08.2018, 03.12.2021, 24.06.2019, 24.02.2003, 20.08.2007, and 26.07.2024.
+4. Ministry of Human Resource Development: This ministry has discussed women reservation in central universities on 24.06.2019.
+5. Ministry of Defence: This ministry has addressed reservation for women in elections to cantonment boards on 20.04.2005."
+Mistral · 7B,Policy Gaps,20.974,335,775," Based on the provided text, the following policy gaps and unresolved issues can be identified:
+
+1. Women Reservation in Legislature, Panchayats, Jobs, and Central Universities: The text shows that there have been numerous discussions and bills related to women reservation in various sectors since 2003. However, it is unclear if any of these bills have been passed and implemented. The repeated mention of women reservation in legislature, panchayats, jobs, and central universities indicates that this issue remains unresolved.
+2. Women Reservation in Elections to Cantonment Boards: There is only one mention of this issue in the text from the Ministry of Defence in 2005. It is unclear if any progress has been made on this front.
+3. Questions on the Implementation of Women Reservation: The text shows that there have been repeated questions asked about the implementation of women reservation bills and policies. For instance, there are queries about the effectiveness of the policies, the number of women who have benefited from the reservations, and the challenges faced in implementing the reservations. These questions suggest that there are gaps in the implementation and enforcement of women reservation policies.
+4. Lack of Specific Data: The text does not provide any specific data on the number of women who have benefited from the reservations, the challenges faced in implementing the reservations, or the impact of the reservations on women's representation and participation in various sectors. This lack of data makes it difficult to evaluate the effectiveness of the policies and identify areas for improvement."
+Granite 4.0 · Micro,Executive Summary,12.186,392,603,"The parliamentary discussions on women reservation have been a recurring theme across various ministries and dates, reflecting a persistent effort to address gender inequality in political representation. Initially, the debate gained momentum in 2003 when the LAW & JUSTICE ministry proposed the WOMEN RESERVATION BILL for Parliament, aiming to reserve a certain percentage of seats for women in the Lok Sabha and State Assemblies. This proposal was revisited in subsequent years, with the LAW & JUSTICE ministry bringing the WOMEN RESERVATION BILL to the floor of the house in 2005, 2007, and 2008, indicating a continuous legislative push to ensure women's participation in the legislative process. The discussions were not confined to the central legislature alone, as evidenced by the PANCHAYATI RAJ ministry's focus on WOMEN RESERVATION IN PANCHAYATS in 2010 and 2016, highlighting the broader scope of the initiative to include local governance bodies.
+
+Subsequent legislative efforts were marked by the LAW AND JUSTICE ministry's renewed focus on the WOMEN RESERVATION BILL in 2010, 2016, 2017, 2018, 2019, and 2021, demonstrating a sustained commitment to advancing women's representation in national politics. The LAW AND JUSTICE ministry's latest discussions in 2023 and 2024, as well as the WOMEN AND CHILD DEVELOPMENT ministry's proposal in 2024 for WOMEN RESERVATION IN JOBS, indicate an evolving approach that seeks to extend the principle of reservation beyond legislative bodies to various sectors, including employment. The PANCHAYATI RAJ ministry's continued emphasis on WOMEN RESERVATION IN PANCHAYATS underscores the importance of grassroots political participation for women. Collectively, these parliamentary discussions reflect a comprehensive strategy to enhance women's political empowerment, moving from legislative mandates to broader societal integration of women in decision-making roles across different domains."
+Granite 4.0 · Micro,Progression Timeline,15.158,496,599,"# Policy Progression Timeline for Women Reservation
+
+## Early Initiatives
+- **24.02.2003**: WOMEN RESERVATION BILL (LAW & JUSTICE)
+- **21.07.2003**: RESERVATION FOR WOMEN IN PARLIAMENT (LAW & JUSTICE)
+
+## Panchayat Raj Focus
+- **18.05.2006**: WOMEN RESERVATION IN PANCHAYATS (PANCHAYAT RAJ)
+
+## Central Universities and Human Resource Development
+- **24.06.2019**: WOMEN RESERVATION IN CENTRAL UNIVERSITIES (HUMAN RESOURCE DEVELOPMENT)
+
+## Law and Justice Revisions
+- **20.08.2007**: WOMEN RESERVATION BILL (LAW & JUSTICE)
+- **21.04.2008**: WOMEN RESERVATION BILL (LAW & JUSTICE)
+- **20.04.2005**: WOMEN RESERVATION BILL FOR CANTONMENT BOARDS (DEFENCE)
+- **05.12.2014**: WOMEN RESERVATION BILL (LAW & JUSTICE)
+
+## Recent Developments
+- **24.11.2016**: WOMEN RESERVATIONS IN PANCHAYATS (PANCHAYATI RAJ)
+- **07.12.2016**: WOMEN RESERVATION BILL (LAW AND JUSTICE)
+- **26.04.2010**: WOMEN RESERVATION (PANCHAYATI RAJ)
+- **20.12.2017**: WOMEN RESERVATION BILL (LAW AND JUSTICE)
+- **17.07.2019**: WOMEN RESERVATION BILL (LAW AND JUSTICE)
+- **24.06.2019**: WOMEN RESERVATION IN CENTRAL UNIVERSITIES (HUMAN RESOURCE DEVELOPMENT)
+- **03.12.2021**: WOMEN RESERVATION BILL (LAW AND JUSTICE)
+- **02.02.2024**: WOMEN RESERVATION (LAW AND JUSTICE)
+- **25.03.2022**: WOMEN RESERVATION BILL (LAW AND JUSTICE)
+- **08.12.2023**: WOMEN RESERVATION IN JOBS (WOMEN AND CHILD DEVELOPMENT)
+- **26.07.2024**: WOMEN RESERVATION IN LEGISLATURE (LAW AND JUSTICE)"
+Granite 4.0 · Micro,Ministry Engagement,13.723,449,596,"Based on the provided data, the government ministries engaged in the topic of women reservation are:
+
+1. WOMEN AND CHILD DEVELOPMENT:
+   - Date: 21.02.2014 - WOMEN RESERVATION
+   - Date: 08.08.2018 - WOMEN RESERVATION BILL
+   - Date: 20.12.2017 - WOMEN RESERVATION BILL
+   - Date: 03.12.2021 - WOMEN RESERVATION BILL
+   - Date: 02.02.2024 - WOMEN RESERVATION
+   - Date: 25.03.2022 - WOMEN RESERVATION BILL
+
+2. PANCHAYATI RAJ:
+   - Date: 26.04.2010 - WOMEN RESERVATION
+   - Date: 24.11.2016 - WOMEN RESERVATIONS IN PANCHAYATS
+
+3. LAW AND JUSTICE:
+   - Date: 07.12.2016 - WOMEN RESERVATION BILL
+   - Date: 08.08.2018 - WOMEN RESERVATION BILL
+   - Date: 17.07.2019 - WOMEN RESERVATION BILL
+   - Date: 24.06.2019 - WOMEN RESERVATION IN CENTRAL UNIVERSITIES
+   - Date: 03.12.2021 - WOMEN RESERVATION BILL
+   - Date: 02.02.2024 - WOMEN RESERVATION
+   - Date: 25.03.2022 - WOMEN RESERVATION BILL
+   - Date: 26.07.2024 - WOMEN RESERVATION IN LEGISLATURE
+
+4. HUMAN RESOURCE DEVELOPMENT:
+   - Date: 24.06.2019 - WOMEN RESERVATION IN CENTRAL UNIVERSITIES
+
+5. DEFENCE:
+   - Date: 20.08.2007 - WOMEN RESERVATION BILL
+
+Each of these ministries has taken specific actions or made statements related to women reservation, either in general, in Panchayats, in central universities, or in the legislature and judiciary."
+Granite 4.0 · Micro,Policy Gaps,16.696,552,600,"Policy Gaps Identified:
+
+1. **Consistency in Women's Reservation Policy Across Sectors**: There is a recurring theme of women's reservation across various sectors such as Panchayats, Parliament/Legislature, Central Universities, and jobs. However, the policy details, implementation mechanisms, and timelines for these sectors are not consistently addressed.
+
+2. **Lack of a Uniform Framework**: The different ministries handling women's reservation (WOMEN AND CHILD DEVELOPMENT, PANCHAYATI RAJ, LAW AND JUSTICE, HUMAN RESOURCE DEVELOPMENT) suggest a lack of a unified framework for implementing women's reservation policies. Each ministry seems to operate independently, leading to potential inconsistencies and overlaps.
+
+3. **Implementation Challenges**: While the bills have been introduced and discussed, there is a lack of clarity on the implementation process. Questions remain about how these reservations will be allocated, the criteria for selection, and the monitoring mechanisms to ensure compliance.
+
+4. **Temporal Gaps in Policy Development**: There are significant gaps in the timeline of policy development. For instance, the Women Reservation Bill was first introduced in 2003, yet there is a significant gap until 2010 before another discussion. This indicates a lack of continuous engagement and progress in refining and implementing the policy.
+
+5. **Sector-Specific Issues**: The policy gaps also highlight sector-specific issues. For example, while there is a clear policy for women's reservation in Panchayats and Parliament, the application to central universities and jobs is less clear. This suggests a need for more detailed policies tailored to the unique challenges and requirements of each sector.
+
+6. **Political and Administrative Hurdles**: The repeated discussions over the years indicate that there are ongoing political and administrative challenges in enacting and implementing women's reservation policies. These could include opposition from certain political parties, resistance from existing power structures, or administrative bottlenecks.
+
+7. **Public Perception and Awareness**: There is a gap in understanding and awareness among the public and policymakers about the benefits and necessity of women's reservation. This could be due to insufficient communication, lack of data on the impact of such policies, or resistance to change.
+
+8. **Evaluation and Feedback Mechanisms**: There is no clear mechanism mentioned for evaluating the impact of women's reservation policies or for gathering feedback from stakeholders. This makes it difficult to assess the effectiveness of the policies and make necessary adjustments.
+
+In summary, while there is a clear demand for women's reservation across various sectors, the policy gaps lie in the lack of a unified framework, consistent implementation mechanisms, and unresolved sector-specific issues. Addressing these gaps would require a comprehensive, coordinated approach across ministries, clear timelines for policy development and implementation, and mechanisms for evaluation and public engagement."
