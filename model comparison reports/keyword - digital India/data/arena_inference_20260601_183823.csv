@@ -1,0 +1,363 @@
+Model,Prompt Type,Latency (s),Output Tokens,Input Tokens,Faithfulness Score,Relevance Score,Formatting Score,Cognitive Efficiency,Output Text
+Llama 3.3 · 70B,Executive Summary,9.536,315,638,100,100,100,10.49,"The topic of Digital India has been discussed in various parliamentary sessions from 2015 to 2018, primarily by the Ministry of Communications and Information Technology. The discussions began with an agreement on Digital India in February 2015 and continued with various titles such as ""Role of DoT in Digital India"", ""Digital India Campaign"", and ""Expansion of Digital India Scheme"". These titles suggest that the government was exploring different aspects of the Digital India initiative, including its implementation, promotion, and expansion.
+
+The discussions on Digital India also involved other ministries, including Minority Affairs, Urban Development, Environment, Forests and Climate Change, and Finance. The Ministry of Minority Affairs discussed ""Skill Development under Make in India and Digital India"", while the Ministry of Urban Development talked about the ""Digital India Project"". The Ministry of Environment, Forests and Climate Change mentioned the ""Digital India Initiative"", and the Ministry of Finance discussed the ""Digital India Project"". This indicates that the Digital India initiative was being considered from multiple perspectives and was not limited to a single ministry.
+
+The more recent discussions on Digital India, from 2016 to 2018, were led by the Ministry of Electronics and Information Technology. The titles of these discussions include ""Digital India Programme"", ""Digital India Plan"", ""Job Creation under Digital India"", and ""Work under Digital India"". The Ministry of Communications also discussed ""Works under Digital India Programme"" in 2017. These titles suggest that the government was focusing on the implementation and progress of the Digital India initiative, including its impact on job creation and overall development."
+Llama 3.3 · 70B,Progression Timeline,9.153,240,634,100,100,100,10.93,"### Policy Progression Timeline
+* 2015 
+  + February 25: AGREEMENT ON DIGITAL INDIA 
+  + July 22: Digital India 
+  + July 29: Investment in Digital India, Skill Development under Make in India and Digital India 
+  + August 5: Expansion of Digital India Scheme
+  + December 2: Promoting Agriculture under Digital India
+  + December 9: Privacy Concerns Regarding Digital India
+  + December 22: Digital India Initiative
+* 2016 
+  + February 24: Digital India Campaign
+  + March 2: Digital India
+  + March 16: Role of DoT in Digital India
+  + April 27: Digital India Project
+  + November 18: Digital India Project
+  + December 14: Digital India Plan, Job Creation under Digital India
+* 2017 
+  + July 26: Work under Digital India
+  + August 9: Digital India Programme
+  + December 20: Digital India Programme
+  + December 27: Works under Digital India Programme
+* 2018 
+  + January 3: Digital India Programme"
+Llama 3.3 · 70B,Ministry Engagement,6.994,211,631,100,100,100,14.3,"The government ministries engaged in the topic of Digital India are:
+
+1. Ministry of Communications and Information Technology: This ministry has been involved in various aspects of Digital India, including agreements, campaigns, expansion of the scheme, investment, and addressing privacy concerns.
+2. Ministry of Minority Affairs: This ministry has been involved in skill development under the Make in India and Digital India initiatives.
+3. Ministry of Urban Development: This ministry has been involved in the Digital India Project.
+4. Ministry of Environment, Forests and Climate Change: This ministry has been involved in the Digital India Initiative.
+5. Ministry of Electronics and Information Technology: This ministry has been involved in the Digital India Programme, including planning, job creation, and implementation.
+6. Ministry of Finance: This ministry has been involved in the Digital India Project.
+7. Ministry of Communications: This ministry has been involved in works under the Digital India Programme.
+
+These ministries have specific jurisdictions or responses related to Digital India, including promoting agriculture, skill development, urban development, environmental initiatives, and financial aspects."
+Llama 3.3 · 70B,Policy Gaps,13.25,362,635,100,100,100,7.55,"Policy gaps are evident in the following areas:
+
+1. **Privacy Concerns**: The issue of privacy concerns regarding Digital India was raised on 09.12.2015, but there is no subsequent record of its resolution.
+2. **Job Creation**: The title ""Job Creation under Digital India"" on 14.12.2016 suggests that job creation is a concern, but there is no further information on how this issue is being addressed.
+3. **Investment and Funding**: The title ""Investment in Digital India"" on 29.07.2015 implies that investment is a concern, but there is no subsequent record of how this issue is being resolved.
+4. **Inter-Ministerial Coordination**: The involvement of multiple ministries (e.g., Communications and Information Technology, Electronics and Information Technology, Urban Development, Environment, Forests and Climate Change, Finance) suggests a need for coordination, but there is no record of how this is being achieved.
+5. **Digital India's Impact on Specific Sectors**: Titles such as ""Promoting Agriculture under Digital India"" (02.12.2015) and ""Skill Development under Make in India and Digital India"" (29.07.2015) imply that the impact of Digital India on specific sectors is a concern, but there is no subsequent record of how these issues are being addressed.
+
+Repeatedly asked questions or issues that remain unresolved include:
+
+* How will Digital India address privacy concerns?
+* What is the plan for job creation under Digital India?
+* How will Digital India be funded, and what investments are being made?
+* How will inter-ministerial coordination be achieved to ensure the success of Digital India?
+* What is the impact of Digital India on specific sectors, such as agriculture and skill development?"
+Llama 4 · 17B,Executive Summary,4.769,289,586,100,100,100,20.97,"Here is a 3-paragraph executive summary of the discussions regarding the topic of Digital India:
+
+The Digital India initiative has been a topic of discussion across various ministries, including Communications and Information Technology, Electronics and Information Technology, Urban Development, Environment, Forests and Climate Change, Minority Affairs, and Finance. The discussions span over a period of three years, from July 2015 to January 2018. Multiple meetings have been held to deliberate on various aspects of the Digital India programme, including its role, expansion, investment, and impact on different sectors.
+
+The discussions have covered a range of themes, including the role of the Department of Telecommunications (DoT) in Digital India, investment in the programme, skill development, job creation, and privacy concerns. There have also been deliberations on promoting agriculture, urban development, and environmental initiatives under the Digital India programme. The Ministry of Communications and Information Technology has been the most active in discussing the Digital India initiative, with multiple meetings held in 2015 and 2016.
+
+The Digital India programme has been discussed in the context of various goals, including creating jobs, promoting economic growth, and improving public services. Different ministries have contributed to the discussions, highlighting the programme's potential impact on their respective sectors. Overall, the discussions reflect a concerted effort to explore the opportunities and challenges presented by the Digital India initiative and to ensure its effective implementation across different areas of governance."
+Llama 4 · 17B,Progression Timeline,8.864,650,581,100,100,100,11.28,"### Digital India Policy Progression Timeline
+
+#### 2015
+- **22.07.2015**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY discusses the ""Digital India"" initiative, marking an early stage in the policy's development.
+- **29.07.2015**: 
+  - Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY talks about ""Investment in Digital India.""
+  - Ministry of MINORITY AFFAIRS mentions ""Skill Development under Make in India and Digital India,"" indicating a cross-ministry approach.
+- **05.08.2015**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY announces the ""Expansion of Digital India Scheme,"" showing the program's growth.
+- **09.12.2015**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY addresses ""Privacy Concerns Regarding Digital India,"" indicating an awareness of potential issues.
+- **02.12.2015**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY discusses ""Promoting Agriculture under Digital India,"" highlighting sector-specific applications.
+- **22.12.2015**: Ministry of ENVIRONMENT, FORESTS AND CLIMATE CHANGE references the ""Digital India Initiative,"" demonstrating its relevance across sectors.
+- **25.02.2015**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY signs the ""AGREEMENT ON Digital India,"" a foundational step.
+
+#### 2016
+- **02.03.2016**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY revisits ""Digital India,"" possibly for updates or progress reports.
+- **24.02.2016**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY discusses the ""Digital India Campaign,"" possibly detailing outreach efforts.
+- **16.03.2016**: Ministry of COMMUNICATIONS AND INFORMATION TECHNOLOGY outlines the ""Role of DoT in Digital India,"" clarifying departmental responsibilities.
+- **27.04.2016**: Ministry of URBAN DEVELOPMENT mentions the ""Digital India Project,"" indicating urban application.
+- **14.12.2016**: 
+  - Ministry of ELECTRONICS AND INFORMATION TECHNOLOGY discusses the ""Digital India Plan.""
+  - Ministry of ELECTRONICS AND INFORMATION TECHNOLOGY talks about ""Job Creation under Digital India,"" focusing on employment opportunities.
+
+#### 2017
+- **09.08.2017**: Ministry of ELECTRONICS AND INFORMATION TECHNOLOGY provides an update on the ""Digital India Programme.""
+- **26.07.2017**: Ministry of ELECTRONICS AND INFORMATION TECHNOLOGY reports on ""Work under Digital India.""
+- **20.12.2017**: Ministry of ELECTRONICS AND INFORMATION TECHNOLOGY reviews the ""Digital India Programme.""
+- **27.12.2017**: Ministry of COMMUNICATIONS discusses ""Works under Digital India Programme,"" showing ongoing activity.
+
+#### 2018
+- **03.01.2018**: Ministry of ELECTRONICS AND INFORMATION TECHNOLOGY updates on the ""Digital India Programme,"" indicating continued progression.
+
+#### Key Observations
+- The conversation around Digital India began at least as early as July 2015.
+- Multiple ministries have been involved, indicating a cross-sectoral approach.
+- Discussions evolved from foundational agreements and plans (2015) to specific implementations, challenges (like privacy concerns), and sector-specific applications (2016-2017).
+- By 2018, updates on the programme suggest it was an ongoing effort."
+Llama 4 · 17B,Ministry Engagement,5.822,352,579,100,100,100,17.18,"The following government ministries are engaged in the topic of Digital India:
+
+1. **Ministry of Communications and Information Technology**: 
+   - Jurisdiction: Overall implementation and promotion of Digital India, including expansion of the scheme, investment, and addressing privacy concerns.
+   - Specific responses: Multiple titles related to Digital India, including agreement, role of DoT, campaign, expansion, and investment.
+
+2. **Ministry of Electronics and Information Technology**: 
+   - Jurisdiction: Implementation and planning of Digital India Programme, job creation, and works under the programme.
+   - Specific responses: Digital India Programme, job creation, work under Digital India, and plan.
+
+3. **Ministry of Communications**: 
+   - Jurisdiction: Works under Digital India Programme.
+   - Specific response: One title related to works under Digital India Programme.
+
+4. **Ministry of Urban Development**: 
+   - Jurisdiction: Digital India Project in urban areas.
+   - Specific response: One title related to Digital India Project.
+
+5. **Ministry of Environment, Forests and Climate Change**: 
+   - Jurisdiction: Digital India Initiative in the context of environment, forests, and climate change.
+   - Specific response: One title related to Digital India Initiative.
+
+6. **Ministry of Finance**: 
+   - Jurisdiction: Financial aspects of Digital India Project.
+   - Specific response: One title related to Digital India Project.
+
+7. **Ministry of Minority Affairs**: 
+   - Jurisdiction: Skill development under Make in India and Digital India for minority groups.
+   - Specific response: One title related to skill development.
+
+These ministries are involved in various aspects of the Digital India initiative, ranging from implementation and planning to financial and environmental considerations."
+Llama 4 · 17B,Policy Gaps,6.898,395,582,100,100,100,14.5,"Based on the provided records, the following 'Policy Gaps' and unresolved issues can be identified:
+
+1. **Privacy Concerns**: Multiple records (e.g., 09.12.2015) mention privacy concerns regarding Digital India, but there is no clear resolution or policy update on this issue.
+2. **Job Creation**: Records from 14.12.2016 and 18.11.2016 mention job creation under Digital India, but there is no clear update on the progress or effectiveness of job creation initiatives.
+3. **Investment and Funding**: Records from 29.07.2015 and 16.03.2016 mention investment in Digital India, but there is no clear update on the allocation of funds or the impact of investments.
+4. **Implementation across Ministries**: Multiple ministries (e.g., Communications and Information Technology, Urban Development, Environment, Forests and Climate Change, and Minority Affairs) are involved in Digital India, but there is no clear indication of coordination or consistency in implementation across ministries.
+5. **Agricultural Promotion**: A record from 02.12.2015 mentions promoting agriculture under Digital India, but there is no clear update on the progress or effectiveness of this initiative.
+
+Repeatedly asked questions include:
+
+1. What is the role of the Department of Telecommunications (DoT) in Digital India? (16.03.2016)
+2. What are the updates on the Digital India programme? (Multiple records, e.g., 03.01.2018, 20.12.2017, 09.08.2017)
+3. How will Digital India create jobs? (14.12.2016)
+
+Unresolved issues include:
+
+1. Addressing privacy concerns
+2. Effective implementation of job creation initiatives
+3. Allocation and impact of investments in Digital India
+4. Coordination across ministries
+5. Progress and effectiveness of promoting agriculture under Digital India."
+Gemma 3 · 12B,Executive Summary,3.829,217,643,100,100,100,26.11,"The parliamentary data indicates extensive discussion surrounding the Digital India initiative across multiple ministries. The Communications and Information Technology Ministry was centrally involved, with discussions covering the Agreement on Digital India, the role of the Department of Telecommunications (DoT), the Digital India Campaign, expansion of the scheme, investment, and promoting agriculture under Digital India. Privacy concerns related to the Digital India initiative were also addressed by the Communications and Information Technology Ministry.
+
+Beyond the Communications and Information Technology Ministry, the Digital India initiative was considered by several other departments. These included the Ministry of Minority Affairs, focusing on skill development linked to both Make in India and Digital India; the Ministry of Urban Development, addressing the Digital India Project; the Ministry of Environment, Forests and Climate Change; the Ministry of Finance; and the Ministry of Electronics and Information Technology.
+
+Discussions continued into 2017 and 2018, with the Ministry of Electronics and Information Technology leading conversations on the Digital India Programme, job creation, and specific works undertaken. The Ministry of Communications also addressed works under the Digital India Programme."
+Gemma 3 · 12B,Progression Timeline,7.296,551,638,100,100,100,13.71,"## Digital India Policy Progression Timeline
+
+Here's a timeline outlining the progression of the Digital India policy, based solely on the provided data:
+
+**2015**
+
+*   **22.07.2015:** Digital India (Communications and Information Technology)
+*   **25.02.2015:** Agreement on Digital India (Communications and Information Technology)
+*   **29.07.2015:** Investment in Digital India (Communications and Information Technology)
+*   **29.07.2015:** Skill Development under Make in India and Digital India (Minority Affairs)
+*   **05.08.2015:** Expansion of Digital India Scheme (Communications and Information Technology)
+*   **22.12.2015:** Digital India Initiative (Environment, Forests and Climate Change)
+*   **02.12.2015:** Promoting Agriculture under Digital India (Communications and Information Technology)
+*   **09.12.2015:** Privacy Concerns Regarding Digital India (Communications and Information Technology)
+
+**2016**
+
+*   **16.03.2016:** Role of DoT in Digital India (Communications and Information Technology)
+*   **02.03.2016:** Digital India (Communications and Information Technology)
+*   **24.02.2016:** Digital India Campaign (Communications and Information Technology)
+*   **27.04.2016:** Digital India Project (Urban Development)
+*   **14.12.2016:** Digital India Plan (Electronics and Information Technology)
+*   **14.12.2016:** Job Creation under Digital India (Electronics and Information Technology)
+*   **18.11.2016:** Digital India Project (Finance)
+
+**2017**
+
+*   **09.08.2017:** Digital India Programme (Electronics and Information Technology)
+*   **26.07.2017:** Work under Digital India (Electronics and Information Technology)
+*   **27.12.2017:** Works under Digital India Programme (Communications)
+*   **20.12.2017:** Digital India Programme (Electronics and Information Technology)
+
+**2018**
+
+*   **03.01.2018:** Digital India Programme (Electronics and Information Technology)"
+Gemma 3 · 12B,Ministry Engagement,2.796,168,635,100,100,100,35.76,"**Communications:** Engaged in the ""Agreement on Digital India,"" ""Role of DoT in Digital India,"" ""Digital India,"" ""Digital India Campaign,"" ""Expansion of Digital India Scheme,"" ""Investment in Digital India,"" ""Privacy Concerns Regarding Digital India,"" ""Promoting Agriculture under Digital India,"" and ""Works under Digital India Programme.""
+
+**Minority Affairs:** Engaged in ""Skill Development under Make in India and Digital India.""
+
+**Urban Development:** Engaged in the ""Digital India Project.""
+
+**Environment, Forests and Climate Change:** Engaged in the ""Digital India Initiative.""
+
+**Electronics and Information Technology:** Engaged in the ""Digital India Programme,"" ""Digital India Plan,"" ""Job Creation under Digital India,"" and ""Work under Digital India.""
+
+**Finance:** Engaged in the ""Digital India Project."""
+Gemma 3 · 12B,Policy Gaps,3.231,174,639,100,100,100,30.95,"**Policy Gaps:**
+
+*   **Privacy Concerns:** Repeatedly addressed, indicating an unresolved issue.
+*   **Job Creation:** Specifically mentioned as an area of focus, suggesting a need for further development or evaluation.
+*   **Skill Development:** Highlighted in relation to both Make in India and Digital India, indicating a potential gap in workforce readiness.
+*   **Integration Across Ministries:** While multiple ministries are involved (Communications & IT, Minority Affairs, Urban Development, Environment, Finance, Electronics & IT), the records do not detail how these efforts are coordinated or integrated.
+
+
+
+**Repeatedly Asked Questions:**
+
+*   What is the role of various ministries in Digital India?
+*   How is Digital India being implemented?
+*   What work is being done under Digital India?
+*   What is the scope of Digital India?"
+Mistral · 7B,Executive Summary,16.722,262,839,95,90,100,5.68," Executive Summary:
+
+The Communications and Information Technology Ministry spearheaded various discussions on the Digital India initiative between February 2015 and July 2017. The Digital India campaign was introduced in February 2015, with the primary objective of making government services more accessible to citizens through digital means. The Ministry also discussed the role of the Department of Telecommunications (DoT) in implementing the Digital India campaign.
+
+Investment and expansion were significant topics during the discussions. In July 2015, the Ministry announced plans for investing in the Digital India scheme and its expansion. Skill development was another focus area, with the Minority Affairs Ministry discussing the role of Make in India and Digital India in this regard.
+
+Privacy concerns were raised in December 2015, with the Communications and Information Technology Ministry addressing these issues. Agriculture promotion was another sector discussed under the Digital India initiative, with the Ministry outlining plans to promote agriculture digitally. The Digital India programme continued to be a topic of interest, with updates on its progress and works under the programme being shared in December 2016 and July 2017. Job creation was also highlighted as a key benefit of the Digital India initiative."
+Mistral · 7B,Progression Timeline,52.048,839,838,0,100,100,1.28," ```markdown
+## Timeline of Digital India Policy Progression
+
+### 2015
+- **29.07.2015**: Ministry of Communications and Information Technology: Investment in Digital India
+- **29.07.2015**: Ministry of Minority Affairs: Skill Development under Make in India and Digital India
+- **22.07.2015**: Ministry of Communications and Information Technology: Digital India
+- **25.02.2015**: Ministry of Communications and Information Technology: Agreement on Digital India
+
+### 2016
+- **02.03.2016**: Ministry of Communications and Information Technology: Digital India
+- **14.12.2016**: Ministry of Electronics and Information Technology: Digital India Plan
+- **14.12.2016**: Ministry of Electronics and Information Technology: Job Creation under Digital India
+- **27.04.2016**: Ministry of Urban Development: Digital India Project
+- **24.02.2016**: Ministry of Communications and Information Technology: Digital India Campaign
+- **05.08.2015**: Ministry of Communications and Information Technology: Expansion of Digital India Scheme
+- **22.12.2015**: Ministry of Environment, Forests and Climate Change: Digital India Initiative
+- **09.12.2015**: Ministry of Communications and Information Technology: Privacy Concerns Regarding Digital India
+- **02.12.2015**: Ministry of Communications and Information Technology: Promoting Agriculture under Digital India
+- **18.11.2016**: Ministry of Finance: Digital India Project
+- **27.12.2017**: Ministry of Communications: Works under Digital India Programme
+- **20.12.2017**: Ministry of Electronics and Information Technology: Digital India Programme
+
+### 2017
+- **03.01.2018**: Ministry of Electronics and Information Technology: Digital India Programme
+- **26.07.2017**: Ministry of Electronics and Information Technology: Work under Digital India
+- **09.08.2017**: Ministry of Electronics and Information Technology: Digital India Programme
+
+### 2018
+- **03.01.2018**: Ministry of Electronics and Information Technology: Digital India Programme
+```
+
+The Digital India policy was initiated in 2015 with an agreement signed by the Ministry of Communications and Information Technology. The focus of the policy was on digital infrastructure, digital services, and digital literacy. The Digital India campaign was launched in February 2016, and various ministries started implementing the policy in their respective areas. The Ministry of Communications and Information Technology expanded the Digital India scheme in August 2015, and the Ministry of Environment, Forests and Climate Change initiated a Digital India initiative in December 2015. Privacy concerns were raised in December 2015.
+
+In 2016, the Ministry of Urban Development started a Digital India project, and the Ministry of Electronics and Information Technology outlined the Digital India plan and job creation under the program. The Ministry of Finance also started a Digital India project. The Ministry of Communications and Information Technology held discussions on privacy concerns.
+
+In 2017, the Ministry of Communications started working on the Digital India programme, and the Ministry of Electronics and Information Technology continued its efforts with multiple announcements. The Ministry of Electronics and Information Technology also made a significant announcement in January 2018, reiterating its commitment to the Digital India programme."
+Mistral · 7B,Ministry Engagement,11.534,180,835,90,95,100,8.24," The Ministry of Communications and Information Technology (now renamed as the Ministry of Communications, Electronics and Information Technology) has been the primary ministry engaged in the Digital India initiative. The specific jurisdictions or responses of this ministry related to Digital India include agreements, expansion of the scheme, investment, campaigns, and various works under the programme.
+
+Additionally, the Ministry of Minority Affairs has been involved in skill development under Make in India and Digital India. The Ministry of Urban Development has been responsible for the Digital India Project. The Ministry of Environment, Forests and Climate Change has initiated the Digital India Initiative. The Ministry of Electronics and Information Technology has been involved in promoting agriculture under Digital India, executing works under the programme, and implementing the Digital India Plan and Job Creation under Digital India. The Ministry of Finance has also contributed to the Digital India Project."
+Mistral · 7B,Policy Gaps,58.168,592,836,95,90,100,1.63," Based on the provided text, the following policy gaps and unresolved issues can be identified:
+
+1. Privacy concerns regarding the Digital India initiative have been raised multiple times, and it is unclear how these concerns have been addressed. (Ministry of Communications and Information Technology, 09.12.2015, 03.01.2018)
+2. The role of the Department of Telecommunications (DoT) in the implementation of Digital India is not clearly defined. (Ministry of Communications and Information Technology, 16.03.2016)
+3. The expansion of the Digital India scheme and the investment required for its implementation have been discussed, but the specifics of the plan and the sources of funding have not been detailed. (Ministry of Communications and Information Technology, 29.07.2015, 02.03.2016, 09.12.2015, 02.12.2015, 03.01.2018)
+4. Skill development under the Make in India and Digital India initiatives has been mentioned, but the details of the programs and their implementation have not been provided. (Ministry of Communications and Information Technology, 29.07.2015, Ministry of Minority Affairs, 22.07.2015)
+5. The Digital India Campaign and the Digital India Project have been discussed, but the objectives, scope, and outcomes of these initiatives have not been clearly defined. (Ministry of Communications and Information Technology, 24.02.2016, Ministry of Urban Development, 27.04.2016, Ministry of Electronics and Information Technology, 14.12.2016, 27.12.2017, 20.12.2017)
+6. The impact of Digital India on various sectors, such as agriculture, urban development, and finance, has been mentioned, but the specifics of how the initiative will benefit these sectors have not been detailed. (Ministry of Communications and Information Technology, 22.11.2016, Ministry of Finance, 18.11.2016, Ministry of Electronics and Information Technology, 09.08.2017)
+7. The works under the Digital India Programme have been mentioned, but the progress and outcomes of these works have not been reported. (Ministry of Communications, 27.12.2017, Ministry of Electronics and Information Technology, 20.12.2017)"
+Granite 4.0 · Micro,Executive Summary,14.264,446,616,100,100,100,7.01,"The parliamentary discussions on Digital India, as outlined in the provided data, span from February 2015 to December 2017, indicating a sustained focus on the initiative throughout the period. The Digital India campaign, initiated in February 2016, was a central theme, with multiple discussions highlighting its expansion and the role of the Department of Telecom (DoT) in its implementation. The Ministry of Communications and Information Technology repeatedly addressed the initiative, underscoring its importance in transforming India's digital infrastructure and services. Additionally, the involvement of other ministries such as Urban Development, Environment, Forests and Climate Change, and Minority Affairs suggests a collaborative approach to achieving the broader goals of Digital India, integrating various sectors to leverage digital technologies.
+
+The discussions also reveal a multifaceted approach to the Digital India initiative, with specific titles addressing different aspects such as investment, skill development, privacy concerns, agriculture promotion, and job creation. For instance, the Ministry of Communications and Information Technology discussed the expansion of the Digital India Scheme and investment in the initiative, indicating a focus on financial and resource allocation to support its growth. The Ministry of Minority Affairs brought up skill development under Make in India and Digital India, highlighting the importance of equipping the workforce with digital skills to fully benefit from the initiative. Privacy concerns were also raised, indicating a recognition of the need to address cybersecurity and data protection issues as part of the broader digital transformation. This comprehensive approach reflects a strategic effort to ensure that Digital India is not only technologically advanced but also inclusive and secure.
+
+By December 2017, the parliamentary records show continued engagement with the Digital India Programme, with titles indicating job creation as a key outcome of the initiative. The involvement of the Ministry of Finance in discussing the Digital India Project further emphasizes the economic implications and potential for job creation associated with the digital transformation. The discussions across various ministries, including Electronics and Information Technology, underscore the cross-sectoral nature of Digital India, where digital infrastructure development is seen as a catalyst for economic growth and social inclusion. Overall, the parliamentary data illustrates a concerted effort to leverage digital technologies for national development, with a focus on creating a robust digital ecosystem that supports economic growth, enhances service delivery, and addresses societal challenges."
+Granite 4.0 · Micro,Progression Timeline,13.449,427,612,90,95,100,7.06,"# Policy Progression Timeline for Digital India
+
+## 2015
+- **25.02.2015**: Ministry of Communications and Information Technology - AGREEMENT ON DIGITAL INDIA
+- **05.08.2015**: Ministry of Communications and Information Technology - Expansion of Digital India Scheme
+- **29.07.2015**: Ministry of Communications and Information Technology - Investment in Digital India
+- **22.07.2015**: Ministry of Communications and Information Technology - Digital India
+- **29.07.2015**: Minority Affairs - Skill Development under Make in India and Digital India
+- **22.12.2015**: Ministry of Environment, Forests and Climate Change - Digital India Initiative
+- **09.12.2015**: Ministry of Communications and Information Technology - Privacy Concerns Regarding Digital India
+- **02.12.2015**: Ministry of Communications and Information Technology - Promoting Agriculture under Digital India
+
+## 2016
+- **16.03.2016**: Ministry of Communications and Information Technology - Role of DoT in Digital India
+- **24.02.2016**: Ministry of Communications and Information Technology - Digital India Campaign
+- **05.08.2015** (repeated): Ministry of Communications and Information Technology - Expansion of Digital India Scheme
+- **27.04.2016**: Ministry of Urban Development - Digital India Project
+- **14.12.2016**: Ministry of Electronics and Information Technology - Digital India Plan
+- **14.12.2016**: Ministry of Electronics and Information Technology - Job Creation under Digital India
+
+## 2017
+- **27.12.2017**: Ministry of Communications - Works under Digital India Programme
+- **20.12.2017**: Ministry of Electronics and Information Technology - Digital India Programme
+
+## 2018
+- **03.01.2018**: Ministry of Electronics and Information Technology - Digital India Programme
+
+This timeline outlines the key years and policy developments related to the Digital India initiative, highlighting the involvement of various ministries and the evolution of the conversation over time."
+Granite 4.0 · Micro,Ministry Engagement,18.468,597,609,100,100,100,5.41,"**Government Ministries Engaged in Digital India Initiative:**
+
+1. **Communications and Information Technology (COMMS & IT)**
+   - **Jurisdiction/Response:** This ministry is the primary driver of the Digital India initiative. Their titles and actions include:
+     - Agreement on Digital India (25.02.2015)
+     - Role of DoT in Digital India (16.03.2016)
+     - Digital India (02.03.2016)
+     - Digital India Campaign (24.02.2016)
+     - Expansion of Digital India Scheme (05.08.2015)
+     - Investment in Digital India (29.07.2015)
+     - Digital India (29.07.2015)
+     - Digital India (22.07.2015)
+     - Digital India Project (27.04.2016)
+     - Privacy Concerns Regarding Digital India (22.12.2015)
+     - Promoting Agriculture under Digital India (02.12.2015)
+
+2. **Minority Affairs**
+   - **Jurisdiction/Response:** Engaged in skill development initiatives under the Digital India framework.
+   - **Title:** Skill Development under Make in India and Digital India (29.07.2015)
+
+3. **Urban Development**
+   - **Jurisdiction/Response:** Involved in the implementation of the Digital India Project.
+   - **Title:** Digital India Project (27.04.2016)
+
+4. **Environment, Forests and Climate Change**
+   - **Jurisdiction/Response:** Acknowledged the Digital India Initiative within their purview.
+   - **Title:** Digital India Initiative (22.12.2015)
+
+5. **Electronics and Information Technology (EIT)**
+   - **Jurisdiction/Response:** Played a significant role in various aspects of the Digital India Programme. Their titles and actions include:
+     - Digital India Programme (03.01.2018)
+     - Digital India Programme (20.12.2017)
+     - Digital India Plan (14.12.2016)
+     - Job Creation under Digital India (14.12.2016)
+     - Digital India Programme (09.08.2017)
+
+6. **Finance**
+   - **Jurisdiction/Response:** Allocated funds and resources for the Digital India Project.
+   - **Title:** Digital India Project (18.11.2016)
+
+**Summary:** The Digital India initiative is a comprehensive government program that involves multiple ministries, primarily Communications and Information Technology, Minority Affairs, Urban Development, Environment, Forests and Climate Change, Electronics and Information Technology, and Finance. Each ministry has contributed uniquely to the initiative, whether through policy formulation, project implementation, skill development, investment, or addressing specific concerns like privacy and agriculture. The Ministry of Communications and Information Technology leads the initiative, while other ministries provide support, resources, and address specific aspects of the Digital India program."
+Granite 4.0 · Micro,Policy Gaps,15.496,499,613,95,95,100,6.24,"Policy Gaps identified from the provided data:
+
+1. **Skill Development and Human Resource Management**: The question of how to effectively develop and manage human resources to support the Digital India initiative is repeatedly raised. The Ministry of Minority Affairs highlighted this gap in 2015, noting that skill development is necessary under Make in India and Digital India. However, there is no clear follow-up or resolution on how this gap will be addressed.
+
+2. **Privacy Concerns**: A significant concern regarding the Digital India initiative is the issue of privacy. This was raised in a title dated 29.07.2015 under the Ministry of Communications and Information Technology. There is no subsequent action or resolution mentioned in the records to address these privacy concerns.
+
+3. **Agricultural Integration**: The Ministry of Agriculture and Farmers Welfare raised a question about promoting agriculture under the Digital India initiative in 2015. While the initiative aims to integrate various sectors digitally, there is no clear policy or plan on how agriculture will be specifically integrated or benefited from the Digital India push.
+
+4. **Job Creation**: While the Digital India initiative is expected to create jobs, there is a specific question raised in 2016 about job creation under the Digital India program. The Ministry of Finance noted this gap, but there is no follow-up data or policy to address how job creation will be achieved or measured.
+
+5. **Coordination Across Ministries**: There is a lack of coordination or clear communication between different ministries involved in the Digital India initiative. For example, while the Digital India Project is mentioned under multiple ministries (Communications and Information Technology, Urban Development, Environment, Forests and Climate Change, Electronics and Information Technology, etc.), there is no clear indication of how these ministries are working together or if there is a centralized authority overseeing the initiative.
+
+6. **Investment and Funding**: The expansion of the Digital India scheme and investment in the initiative are mentioned, but there is no detailed policy on how these investments will be funded or managed. The question of securing adequate funding remains unresolved.
+
+7. **Privacy and Security**: While privacy concerns were raised, there is no specific policy or action taken to ensure the security and privacy of citizens as the Digital India initiative progresses. This remains an unresolved issue.
+
+In summary, the most significant policy gaps identified are related to skill development, privacy concerns, agricultural integration, job creation, coordination between ministries, funding, and ensuring privacy and security. These issues remain unresolved based on the provided records."

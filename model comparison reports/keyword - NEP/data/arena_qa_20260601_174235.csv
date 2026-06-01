@@ -1,0 +1,151 @@
+Model,Question,Answer,Latency (s),Output Tokens,Input Tokens,Faithfulness Score,Relevance Score,Formatting Score,Cognitive Efficiency
+Llama 3.3 · 70B,What is the current implementation status of this policy?,"The provided context does not contain the current implementation status of the policy. The context appears to be a list of parliamentary records from various ministries in India, related to Nepal, with dates ranging from 2007 to 2015. 
+
+However, based on general knowledge, I can suggest that the implementation status of policies related to India-Nepal relations, such as investment, border management, power supply, and hydro power projects, may have evolved over time. For the most up-to-date information, I recommend checking with the relevant Indian government ministries or official sources.",4.053,114,678,100,80,100,23.03
+Llama 3.3 · 70B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of Home Affairs has been the most active in responding to topics related to Nepal, with a total of 7 mentions. These mentions include discussions on smuggling, infiltration, and illegal activities along the Indo-Nepal border, as well as assistance to earthquake-hit Nepal. 
+
+Here are the mentions:
+1. Date: 21.10.2008, Title: SMUGGLING ON INDO- NEPAL BORDER
+2. Date: 08.05.2007, Title: SMUGGLING FROM NEPAL
+3. Date: 01.03.2011, Title: ILLEGAL ACTIVITIES ON INDO NEPAL BORDER
+4. Date: 22.11.2011, Title: ILLEGAL ACTIVITIES ALONG INDO NEPAL BORDER
+5. Date: 13.08.2013, Title: INFILTRATION THROUGH INDO NEPAL BORDER
+6. Date: 11.08.2015, Title: Infiltration along Indo-Nepal Border
+7. Date: 21.07.2015, Title: Earthquake Assistance to Nepal
+
+The Ministry of Home Affairs has been actively engaged in addressing various issues related to the Indo-Nepal border, making it the most active ministry in this context.",6.774,270,680,100,100,100,14.76
+Llama 3.3 · 70B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided context, the key unresolved issues raised by parliamentarians related to Nepal are:
+
+1. **Smuggling and Infiltration**: Repeated mentions of smuggling (2007, 2008, 2010, 2014) and infiltration (2011, 2013, 2015) along the Indo-Nepal border suggest that this issue has been a persistent concern.
+2. **Illegal Activities**: Multiple references to illegal activities (2011, 2013) along the Indo-Nepal border imply that parliamentarians have been seeking action to address these concerns.
+3. **Border Security**: The frequency of discussions on border-related issues, such as smuggling, infiltration, and illegal activities, highlights the need for enhanced border security.
+4. **Hydro Power Projects**: The mention of hydro power projects in Nepal (2012) and agreement with Nepal (2015) may indicate unresolved issues related to cooperation on energy projects.
+5. **Floods and River Management**: The discussion on floods from rivers flowing from Nepal (2015) suggests that parliamentarians are concerned about the impact of transboundary water management on India.
+6. **Earthquake Assistance and Reconstruction**: The references to assistance to earthquake-hit Nepal (2015) may imply that parliamentarians are seeking updates on the status of relief and reconstruction efforts.
+
+These issues appear to be unresolved, as they have been raised multiple times over the years, indicating a need for sustained attention and action from the government.",12.767,301,679,100,100,100,7.83
+Llama 4 · 17B,What is the current implementation status of this policy?,"The provided context does not mention a specific policy. However, it contains various discussions and decisions related to India-Nepal relations, border security, power supply, and infrastructure development between 2007 and 2015.
+
+If you could provide more information or clarify which policy you are referring to, I can try to provide a more accurate and helpful response. 
+
+That being said, some of the recent discussions in the context are from 2015, which include assistance to earthquake-hit Nepal (July 2015), an agreement with Nepal for power (July 2015), and floods from rivers flowing from Nepal (August 2015). 
+
+To get the current implementation status of a specific policy, I would recommend checking more recent parliamentary records or official government sources.",2.597,154,660,100,80,100,35.93
+Llama 4 · 17B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of Home Affairs appears to be the most active in responding to the topic, which seems to be related to India-Nepal border issues, given the frequency of their titles in the context. 
+
+Titles from the Ministry of Home Affairs include:
+- 21.10.2008: SMUGGLING ON INDO- NEPAL BORDER
+- 08.05.2007: SMUGGLING FROM NEPAL
+- 01.03.2011: ILLEGAL ACTIVITIES ON INDO NEPAL BORDER 
+- 22.11.2011: ILLEGAL ACTIVITIES ALONG INDO NEPAL BORDER
+- 13.08.2013: INFILTRATION THROUGH INDO NEPAL BORDER 
+- 11.08.2015: Infiltration along Indo-Nepal Border
+
+This ministry has dealt with issues of smuggling, illegal activities, and infiltration along the Indo-Nepal border.",3.157,204,662,100,100,100,31.68
+Llama 4 · 17B,What are the key unresolved issues raised by parliamentarians?,"The <context> provided does not explicitly list the key unresolved issues raised by parliamentarians. However, based on the titles of the parliamentary discussions, some of the key issues that seem to be recurring and potentially unresolved include:
+
+1. **Smuggling and Illegal Activities**: Discussions on smuggling on the Indo-Nepal border (21.10.2008, 08.05.2007, 01.03.2011, 22.11.2011, 30.04.2010) suggest that despite multiple discussions, the issue of smuggling and illegal activities along the border remains a concern.
+
+2. **Infiltration**: Infiltration through the Indo-Nepal border has been a topic of discussion (13.08.2013, 11.08.2015), indicating it as another unresolved issue.
+
+3. **Power and Hydro Power Projects**: The supply of power to Nepal (05.08.2011) and discussions on hydro power projects in Nepal (29.11.2012) and an agreement with Nepal (30.07.2015) suggest that while there are efforts to collaborate, the specifics and effectiveness of these collaborations might still be under discussion.
+
+4. **Infrastructure and Connectivity**: Railway links with Nepal (22.08.2013) and the national highway network in states bordering China and Nepal (08.12.2009) indicate that infrastructure and connectivity are areas of ongoing discussion.
+
+5. **Assistance to Nepal**: Discussions on assistance to earthquake-hit Nepal (22.07.2015, 21.07.2015) show that while immediate aid might be provided, long-term support and recovery efforts could be areas of continued concern.
+
+6. **Border Security and Check Posts**: Setting up of check posts in the Nepal border (08.08.2014) and discussions on infiltration and smuggling suggest that border security remains a significant concern.
+
+7. **Investment in Nepal**: Investment in Nepal (15.03.2013) could be an area where parliamentarians are seeking more clarity or assurance on the progress and effectiveness of investments.
+
+These areas seem to be significant and recurring themes, but without specific details from the discussions, it's challenging to pinpoint them as ""unresolved issues"" definitively.",6.646,462,661,100,90,100,14.55
+Gemma 3 · 12B,What is the current implementation status of this policy?,"Please specify which policy you are referring to. The provided context contains records related to various aspects of the India-Nepal relationship, including investment, smuggling, infrastructure, power supply, and disaster relief. Without knowing the specific policy you're asking about, I cannot provide its current implementation status.
+
+Here's a breakdown of the topics covered in the provided records, which might help you clarify your question:
+
+*   **Investment:** Records from the Ministry of Finance (2013) discuss investment in Nepal.
+*   **Diplomatic Relations:** Records from the Ministry of External Affairs (2008, 2011, 2015) detail visits and assistance related to Nepal.
+*   **Border Security:** Several records from the Ministry of Home Affairs (2007, 2008, 2011, 2013, 2015) address smuggling, illegal activities, and infiltration along the Indo-Nepal border.
+*   **Infrastructure:** Records from the Ministries of Road Transport and Highways (2009) and Railways (2013) concern national highway networks and railway links with Nepal.
+*   **Power Sector:** Records from the Ministry of Power (2007, 2011, 2015) discuss the supply of power to Nepal and hydropower projects.
+*   **Water Resources:** A record from the Ministry of Water Resources (2015) addresses floods originating from rivers flowing from Nepal.
+*   **Disaster Relief:** Records from the Ministries of External Affairs and Home Affairs (2015) detail assistance provided to Nepal after the earthquake.
+
+Once you specify the policy, I can attempt to synthesize information from the context or, if necessary, draw on general knowledge to address your question, clearly stating when I am doing so.",5.629,388,693,100,80,100,16.58
+Gemma 3 · 12B,Which ministry has been most active in responding to this topic?,"Based on the provided parliamentary records, the **Ministry of Home Affairs** has been the most active, with mentions in the following records:
+
+*   Smuggling on Indo- Nepal Border (22.10.2008)
+*   Smuggling from Nepal (08.05.2007)
+*   Illegal Activities on Indo Nepal Border (01.03.2011)
+*   Illegal Activities along Indo Nepal Border (22.11.2011)
+*   Infiltration through Indo Nepal Border (13.08.2013)
+*   Infiltration along Indo-Nepal Border (11.08.2015)
+
+
+
+The Ministry of Power and External Affairs also appear frequently.",2.61,166,695,100,100,100,38.31
+Gemma 3 · 12B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided parliamentary records, several key unresolved issues related to India-Nepal relations emerge. Here's a synthesis:
+
+*   **Smuggling and Illegal Activities:** A recurring concern is smuggling along the Indo-Nepal border. Records from multiple ministries (Finance, Home Affairs) consistently highlight this issue, spanning from 2007 to 2015. This suggests it remains a persistent challenge.
+*   **Infiltration:** Concerns about infiltration through the Indo-Nepal border are also frequently mentioned (2013, 2015), indicating ongoing security concerns.
+*   **Border Management:** The establishment of check posts along the Nepal border (2014) suggests an attempt to address these issues, but the records don't indicate if these measures have fully resolved the problems.
+*   **Power Supply and Hydro Power Projects:** Discussions around the supply of power to Nepal (2011) and hydro power projects in Nepal (2012) suggest ongoing negotiations and potential challenges in energy cooperation.
+*   **Flooding:** Records concerning floods originating from rivers flowing from Nepal (2015) highlight a trans-border environmental concern that requires ongoing attention.
+
+**Please note:** While these records indicate areas of concern and ongoing engagement, they do not explicitly state what ""unresolved"" issues remain. They offer a snapshot of topics Parliament has addressed related to India-Nepal relations.",4.44,294,694,100,90,100,21.77
+Mistral · 7B,What is the current implementation status of this policy?," Based on the provided context, there is no clear information about the existence or current implementation status of a specific policy regarding India-Nepal relations. However, various issues have been discussed in different ministries, including investment, smuggling, border security, power supply, and earthquake assistance. These issues have been addressed through various measures such as visits, agreements, and the setting up of check posts. Therefore, it can be inferred that there is ongoing engagement and cooperation between India and Nepal on various fronts.",6.852,107,866,100,90,100,14.11
+Mistral · 7B,Which ministry has been most active in responding to this topic?," Based on the given context, the Ministry of Home Affairs has been the most active in responding to issues related to Nepal, including smuggling, illegal activities, and border security. However, it's important to note that other ministries such as Finance, External Affairs, Power, and Railways have also been involved in various aspects of Nepal-related policies.",5.338,77,868,100,100,100,18.73
+Mistral · 7B,What are the key unresolved issues raised by parliamentarians?," Based on the provided context, the following are the key unresolved issues raised by parliamentarians regarding India-Nepal relations:
+
+1. Smuggling: Several parliamentary records from the Home Affairs Ministry highlight concerns about smuggling activities on the Indo-Nepal border. There is no clear indication of how these issues have been addressed or if there have been any significant developments to mitigate smuggling. (References: 08.05.2007, 30.04.2010, 01.03.2011, 13.08.2015)
+
+2. Infiltration: Parliamentary records from the Home Affairs Ministry indicate concerns about infiltration through the Indo-Nepal border. The context does not provide sufficient information about the nature of this infiltration or if there have been any efforts to address it. (References: 21.10.2008, 13.08.2013, 11.08.2015)
+
+3. Border Security: There are mentions of setting up check posts in the Nepal border in the Finance Ministry records (08.08.2014), but it is unclear if these measures have been effective in addressing security concerns.
+
+4. Power Supply: Parliamentary records suggest that there have been issues with the supply of power to Nepal. There is no clear indication of how these issues have been resolved or if there have been any significant developments to improve power supply. (References: 05.08.2011, 29.11.2012, 30.07.2015)
+
+5. Floods from Nepal: Parliamentary records from the Water Resources, River Development and Ganga Rejuvenation Ministry indicate concerns about flooding from rivers flowing from Nepal. It is unclear if there have been any efforts to mitigate the impact of these floods or if there have been any significant developments in this regard. (Reference: 13.08.2015)
+
+Explicitly, the context does not provide sufficient information to answer questions about investment in Nepal, Nepalese prime minister's visit to India, survey by NEPAU, illegal activities along the Indo-Nepal border, national highway network in states bordering China and Nepal, hydro power projects in Nepal, agreement with Nepal, and assistance to earthquake-hit Nepal.",36.601,559,868,100,100,100,2.73
+Granite 4.0 · Micro,What is the current implementation status of this policy?,"The parliamentary records provided do not contain any information about the current implementation status of the Indo-Nepal policy. The context only includes a list of parliamentary discussions and decisions related to Indo-Nepal relations and border security from 2007 to 2015, but does not mention any ongoing implementation or status of the policy.",2.736,66,656,100,100,100,36.56
+Granite 4.0 · Micro,Which ministry has been most active in responding to this topic?,"Based on the parliamentary records provided, the **HOME AFFAIRS** ministry has been the most active in responding to issues related to Indo-Nepal border activities and border security. 
+
+Specifically, HOME AFFAIRS appears in the following relevant titles:
+
+- 08.05.2007 - SMUGGLING FROM NEPAL  
+- 06.03.2007 - SURVEY BY NEPAU  
+- 01.03.2011 - ILLEGAL ACTIVITIES ON INDO NEPAL BORDER  
+- 22.11.2011 - ILLEGAL ACTIVITIES ALONG INDO NEPAL BORDER  
+- 05.08.2011 - INFILTRATION THROUGH INDO NEPAL BORDER  
+- 13.08.2013 - INFILTRATION THROUGH INDO NEPAL BORDER  
+- 30.07.2015 - Infiltration along Indo-Nepal Border  
+
+In contrast, the other ministries listed (Finance, External Affairs, Road Transport and Highways, Power, etc.) have only a few mentions related to this topic. Therefore, HOME AFFAIRS is the most active ministry in this context.",7.662,236,658,90,95,100,12.4
+Granite 4.0 · Micro,What are the key unresolved issues raised by parliamentarians?,"Based on the parliamentary records provided, several key unresolved issues have been raised by parliamentarians regarding Indo‑Nepal relations and border management:
+
+1. **Smuggling & Illegal Activities**  
+   - **Smuggling on the Indo‑Nepal Border** – Multiple sessions (e.g., 08.05.2007, 21.10.2008, 22.11.2011, 22.08.2013, 08.08.2014, 11.08.2015) have highlighted the problem of smuggling (both goods and people) across the border, which remains a persistent challenge.  
+   - **Illegal Activities** – Parliamentarians have repeatedly addressed illegal activities such as smuggling, infiltration, and other illicit operations along the Indo‑Nepal border. These issues were noted in sessions on 08.12.2009, 22.10.2008, 22.11.2011, and 11.08.2015.
+
+2. **Border Security & Check Posts**  
+   - **Setting Up Check Posts** – A significant discussion took place on 08.08.2014 where the government proposed setting up check posts at the Indo‑Nepal border, indicating an ongoing effort to enhance border security. This remains an unresolved initiative awaiting further legislative or operational steps.  
+   - **Increased Security Measures** – The need for robust security infrastructure along the border has been a recurring theme, suggesting that while steps have been taken, the issue remains unresolved.
+
+3. **Infiltration**  
+   - **Infiltration through the Border** – Several parliamentary discussions (e.g., 13.08.2013, 11.08.2015) have brought up the issue of infiltration through the Indo‑Nepal border, underscoring the security concern that has not yet been fully addressed.
+
+4. **Cross‑Border Infrastructure & Connectivity**  
+   - **Railway Links** – On 22.08.2013, the parliament deliberated on establishing railway links between India and Nepal, highlighting the importance of improved transportation connectivity. While the initiative was discussed, the implementation details and status are not provided in the available records, indicating it remains an unresolved development goal.
+
+5. **Hydro‑Power Projects**  
+   - **Hydro Power Projects in Nepal** – A session on 29.11.2012 focused on hydro‑power projects in Nepal. Although the parliamentary debate covered the potential benefits and challenges, the specific outcomes or current status of these projects are not detailed, leaving the issue open.
+
+6. **Flood Management**  
+   - **Floods from Rivers Flowing from Nepal** – On 30.04.2010, parliamentarians raised concerns about floods originating from rivers that originate in Nepal, indicating ongoing challenges in flood management and management of trans‑boundary water resources. No follow‑up actions or resolutions were recorded in the provided data.
+
+7. **Earthquake Assistance**  
+   - **Earthquake Relief** – The parliament’s attention to earthquake assistance (22.07.2015, 21.07.2015) shows that while immediate humanitarian aid was provided, the broader issue of disaster preparedness and long‑term recovery remains unresolved.
+
+**Summary:**  
+The key unresolved issues identified from the parliamentary records include persistent smuggling and illegal activities along the Indo‑Nepal border, the need for enhanced border security (including check posts), ongoing concerns about infiltration, pending infrastructure projects such as railway links, hydro‑power development, flood management, and disaster preparedness. These topics have been repeatedly raised but no definitive resolutions or follow‑up actions are documented in the available parliamentary session records.",23.325,754,657,100,100,100,4.29

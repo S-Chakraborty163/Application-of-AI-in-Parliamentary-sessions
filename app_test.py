@@ -466,6 +466,13 @@ with tab1:
             st.toast("Data synchronized to cloud storage.")
 
     if st.button("Initialize Acquisition Sequence", type="primary"):
+        # ── PINECONE WIPE ON NEW SEARCH ──
+        try:
+            ai_engine.index.delete(delete_all=True)
+            st.toast("Pinecone database cleared for fresh search context.")
+        except Exception as e:
+            pass # Ignore if index is already empty or error
+
         st.session_state.app_state["scraping_active"] = True
         st.session_state.app_state["keywords_expanded"] = expand_keywords(raw_query)
         st.session_state.app_state["scraped_records"] = []

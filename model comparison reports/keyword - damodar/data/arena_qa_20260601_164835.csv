@@ -1,0 +1,118 @@
+Model,Question,Answer,Latency (s),Output Tokens,Input Tokens,Faithfulness Score,Relevance Score,Formatting Score,Cognitive Efficiency
+Llama 3.3 · 70B,What is the current implementation status of this policy?,"Based on the provided context, it appears that there are multiple policies and projects related to the Damodar River and the Damodar Valley Corporation (DVC) that have been discussed in the parliamentary records. However, the context does not provide a clear and up-to-date implementation status of these policies.
+
+The records show that there have been various discussions and decisions made regarding the de-silting of the Damodar River, pollution in the river, and the functioning of the DVC, among other topics. However, the most recent record is from 2025, and it only mentions the division of the DVC, without providing information on the current implementation status of the policies.
+
+Therefore, I must rely on general knowledge to state that the implementation status of these policies is not clear from the provided context, and it would be best to consult more recent and specific sources for the most up-to-date information.",5.244,184,694,95,90,100,18.12
+Llama 3.3 · 70B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of POWER has been the most active in responding to topics related to the Damodar Valley Corporation, with a total of 7 mentions. 
+
+1. Date: 27.02.1996, Ministry: POWER, Title: POWER GENERATION BY DAMODAR VALLEY CORPORATION
+2. Date: 01.12.1998, Ministry: POWER, Title: ENFORCEMENT OF POWER REGULATIONS BY NTPC ON DEFAULTING SEBS
+3. Date: 21.11.1996, Ministry: POWER, Title: DUES OF STATE ELECTRICITY BOARDS TO CENTRAL POWER PUBLIC UNDERTAKINGS
+4. Date: 10.03.1999, Ministry: POWER, Title: LAND FOR MAITHAN PROJECT OF DVC
+5. Date: 10.03.1999, Ministry: POWER, Title: MALPRACTICES IN APPOINTMENTS IN DAMODAR VALLEY CORPORATION
+6. Date: 30.07.2015, Ministry: POWER, Title: Damodar Valley Corporation
+7. Date: 08.12.2016, Ministry: POWER, Title: CSR of Damodar Valley Corporation
+8. Date: 15.12.2022, Ministry: POWER, Title: Damodaram Sanjeevaiah Thermal Power Station
+9. Date: 24.07.2025, Ministry: POWER, Title: Division of Damodar Valley Corporation
+
+The Ministry of ENVIRONMENT, FORESTS AND CLIMATE CHANGE is also active, with 3 mentions related to pollution in the Damodar River. 
+
+1. Date: 14.03.2017, Ministry: ENVIRONMENT, FORESTS AND CLIMATE CHANGE, Title: Pollution in Damodar River
+2. Date: 28.12.2018, Ministry: ENVIRONMENT, FORESTS AND CLIMATE CHANGE, Title: Pollution in Damodar River
+3. Date: 14.12.1998, Ministry: STEEL AND MINES, Title: FLOWING OF SEWERAGE WATER IN DAMODAR RIVER (related to environmental concerns)
+
+The Ministry of JAL SHAKTI is also mentioned, but only once, in relation to the Damodar Valley Corporation.
+
+1. Date: 19.12.2024, Ministry: JAL SHAKTI, Title: Damodar Valley Corporation
+
+Other ministries, such as WATER RESOURCES, CORPORATE AFFAIRS, and RAILWAYS, have fewer mentions related to the topic.",25.943,529,696,100,100,100,3.85
+Llama 3.3 · 70B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided parliamentary records, some key unresolved issues raised by parliamentarians related to the Damodar River and Damodar Valley Corporation include:
+
+1. **Pollution in Damodar River**: This issue was raised on multiple occasions (14.03.2017, 28.12.2018) by the Ministry of Environment, Forests and Climate Change, indicating a long-standing concern that has not been fully addressed.
+2. **De-silting of Damodar River**: The issue of de-silting was raised on 08.07.2009 by the Ministry of Water Resources, suggesting that the problem of siltation in the river has been ongoing for many years.
+3. **Flowing of sewerage water in Damodar River**: This issue was raised on 14.12.1998 by the Ministry of Steel and Mines, indicating that the problem of sewerage water flowing into the river has been a concern for over two decades.
+4. **Malpractices in appointments in Damodar Valley Corporation**: The issue of malpractices in appointments was raised on 10.03.1999 by the Ministry of Power, suggesting that there have been concerns about transparency and fairness in the corporation's hiring processes.
+5. **Land acquisition and displacement**: The issue of land acquisition for the Maithan project of DVC was raised on 10.03.1999 by the Ministry of Power, indicating that there have been concerns about the impact of the project on local communities and the environment.
+
+These issues suggest that parliamentarians have been raising concerns about environmental degradation, corruption, and social impacts related to the Damodar River and Damodar Valley Corporation for many years, and that these issues remain unresolved.",24.499,356,695,100,100,100,4.08
+Llama 4 · 17B,What is the current implementation status of this policy?,"I can provide some general information about the Damodar Valley Corporation (DVC) and its projects, but I don't have real-time information on the current implementation status of a specific policy.
+
+The provided context contains various discussions and debates related to the Damodar River, DVC, and its projects from different years. However, I couldn't find a specific policy mentioned with a clear implementation status.
+
+If you could provide more details about the policy you're interested in, such as its name or a specific aspect of the DVC, I may be able to provide more relevant information or direct you to a relevant source.",2.206,121,662,100,80,100,42.31
+Llama 4 · 17B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of Power appears to be the most active in responding to the topic, likely related to the Damodar Valley Corporation (DVC). 
+
+The Ministry of Power has 6 entries: 
+- 30.07.2015, regarding Damodar Valley Corporation
+- 08.12.2016, regarding CSR of Damodar Valley Corporation
+- 15.12.2022, regarding Damodaram Sanjeevaiah Thermal Power Station
+- 19.12.2024, regarding Damodar Valley Corporation
+- 24.07.2025, regarding Division of Damodar Valley Corporation
+- 27.02.1996, regarding power generation by Damodar Valley Corporation
+
+However, other ministries like Environment, Forests and Climate Change, Water Resources, and Railways have also shown significant activity regarding the Damodar River and related issues.",2.553,183,664,100,100,100,39.17
+Llama 4 · 17B,What are the key unresolved issues raised by parliamentarians?,"After analyzing the provided context, I've identified some key unresolved issues raised by parliamentarians related to the Damodar River and Damodar Valley Corporation (DVC):
+
+1. **Pollution in Damodar River**: Multiple discussions (14.03.2017, 28.12.2018) highlighted the pollution issues in the Damodar River, indicating a persistent concern that requires attention.
+2. **De-siltation of Damodar River**: A discussion on 08.07.2009 emphasized the need for de-siltation of the Damodar River, which may still be a pending issue.
+3. **Power generation and distribution**: Several discussions (27.02.1996, 21.11.1996, 01.12.1998) focused on power generation and distribution issues related to DVC, including enforcement of power regulations and dues of state electricity boards.
+4. **Land acquisition for projects**: A discussion on 10.03.1999 raised concerns about land acquisition for the Maithan project of DVC, which might still be a contentious issue.
+5. **Malpractices in appointments**: Allegations of malpractices in appointments in DVC (10.03.1999) could indicate a need for greater transparency and accountability in the organization's HR practices.
+6. **Environmental concerns**: Discussions on pollution (14.03.2017, 28.12.2018) and inclusion of the Palar River in the river action plan (30.08.1996) suggest ongoing concerns about environmental issues in the region.
+
+These issues may still be relevant today, and parliamentarians may continue to raise them in future discussions. However, without more recent data or specific information on the current status of these issues, it is difficult to provide a more detailed analysis.",3.857,367,663,100,100,100,25.93
+Gemma 3 · 12B,What is the current implementation status of this policy?,"Please specify which policy you are referring to. The provided context contains records related to various aspects of the Damodar River and the Damodar Valley Corporation (DVC), including de-silting, pollution, power generation, railway lines, and more. Without knowing the specific policy you're asking about, I cannot determine its current implementation status. 
+
+Here's a breakdown of what the records *do* indicate:
+
+*   **Ongoing Concerns:** There are multiple records (1998, 2017, 2018) addressing pollution in the Damodar River, suggesting this remains an issue.
+*   **DVC Activities:** The DVC is frequently mentioned across various years and ministries (Power, Water Resources, Jal Shakti), indicating continued operations and projects related to the corporation.
+*   **Recent Focus (2024):** A recent record (2024) from the Ministry of Jal Shakti specifically mentions the Damodar Valley Corporation, suggesting a current focus on its activities.
+
+
+
+To provide a more specific answer, please clarify which policy you are interested in.",3.825,228,725,100,80,100,24.4
+Gemma 3 · 12B,Which ministry has been most active in responding to this topic?,"Based on the provided parliamentary records, the **Ministry of Power** has been the most active, with mentions in numerous records concerning the Damodar River and the Damodar Valley Corporation (DVC). These records cover topics like power generation, CSR, land acquisition for projects, and the division of the DVC.",1.257,63,727,100,100,100,79.58
+Gemma 3 · 12B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided parliamentary records, several key unresolved issues related to the Damodar River and the Damodar Valley Corporation (DVC) have been raised:
+
+*   **Pollution:** Concerns about pollution in the Damodar River are repeatedly highlighted (14.03.2017, 28.12.2018). This suggests ongoing issues with water quality and potential environmental impact.
+*   **Malpractices in DVC Appointments:** In 1999, parliamentarians raised concerns about ""malpractices in appointments"" within the Damodar Valley Corporation, indicating governance issues.
+*   **Flowing of Sewage Water:** A 1998 record points to the issue of sewage water flowing into the Damodar River.
+*   **DVC Division:** A recent record (24.07.2025) mentions the ""Division of Damodar Valley Corporation,"" suggesting potential restructuring or changes within the organization.
+
+
+
+**Please note:** This analysis is based solely on the provided context. A comprehensive understanding would require reviewing the full parliamentary debates and records associated with these titles.",3.63,231,726,100,100,100,27.55
+Mistral · 7B,What is the current implementation status of this policy?," Based on the provided context, there is no clear information about the current implementation status of a specific policy related to the Damodar River. The context includes various records from different ministries and years, discussing topics such as de-silting of the Damodar River, business environment, power generation, railway lines, CSR activities, pollution, thermal power stations, division of the corporation, power generation by Damodar Valley Corporation, supply orders, inclusion of Palar River, flowing of sewerage water, enforcement of power regulations, functioning of the railway, dues of state electricity boards, land for projects, and malpractices in appointments in the Damodar Valley Corporation. However, none of these records directly mention the current implementation status of a policy regarding the Damodar River.",10.954,164,864,100,90,100,8.82
+Mistral · 7B,Which ministry has been most active in responding to this topic?," Based on the provided context, the Ministry of Power and Ministry of Environment, Forests and Climate Change have been the most active ministries in responding to the topic of the Damodar River. The ministries have addressed various issues related to power generation, de-silting of dams, pollution, supply orders, enforcement of regulations, and land acquisition. However, it is important to note that this analysis is based on the given context only and may not represent the full scope of actions taken by these ministries on this topic.",7.758,109,866,100,100,100,12.89
+Mistral · 7B,What are the key unresolved issues raised by parliamentarians?," Based on the provided context, the following are the key unresolved issues raised by parliamentarians regarding the Damodar River and related entities:
+
+1. Desilting of Damodar River: This issue was raised in 2009, but there is no record of a definitive resolution.
+2. Pollution in Damodar River: This issue was raised in 2017 and 2018, but the context does not provide information on the status of resolution.
+3. Division of Damodar Valley Corporation: This issue was raised in 2025, and there is no record of a definitive resolution.
+4. Malpractices in appointments in Damodar Valley Corporation: This issue was raised in 1999, but there is no record of a definitive resolution.
+
+Please note that the context provided does not contain enough information to answer definitively about the status of other issues such as the Damodaran Panel on Business Environment, the CSR of Damodar Valley Corporation, the Bankura-Damodar River Railway Line, the inclusion of Palar River in the Riveraction Plan, the functioning of Bankura Damodar River Railway, the dues of state electricity boards to central power public undertakings, the land for Maithan project of DVC, and power generation by Damodar Valley Corporation. These issues may have been resolved or are still ongoing, but the context does not provide enough detail to determine their current status.",20.981,316,866,100,100,100,4.77
+Granite 4.0 · Micro,What is the current implementation status of this policy?,"The most recent parliamentary discussion on the Damodar River was on 27.02.1996, in the Ministry of Power, titled ""POWER GENERATION BY DAMODAR VALLEY CORPORATION."" There are no subsequent parliamentary records in the provided context that would indicate a current implementation status of any Damodar River-related policy.",2.955,67,672,0,0,100,11.28
+Granite 4.0 · Micro,Which ministry has been most active in responding to this topic?,"Based on the parliamentary records provided, the ministry that has been most active in responding to the topic of Damodar River is the **Ministry of Environment, Forests and Climate Change**. 
+
+Specifically, there are two entries dated **14.03.2017** and **28.12.2018** under this ministry, both titled ""Pollution in Damodar River"". This indicates that the Environment, Forests and Climate Change ministry has taken two separate actions or statements related to pollution in the Damodar River within a period of about 1.5 years.",4.125,120,674,100,80,100,22.62
+Granite 4.0 · Micro,What are the key unresolved issues raised by parliamentarians?,"Based on the parliamentary records provided, the key unresolved issues raised by parliamentarians regarding the Damodar River are:
+
+1. **Pollution**  
+   - Multiple sessions (e.g., 14.03.2017, 28.12.2018) highlighted pollution in the Damodar River, indicating ongoing environmental concerns that have not been fully addressed.
+
+2. **De-silting of Damodar River**  
+   - A specific resolution (08.07.2009) discussed the de-silting of the Damodar River, suggesting that this maintenance task remains a priority but has not been completed.
+
+3. **Damodar Valley Corporation (DVC) Issues**  
+   - Discussions on the functioning and governance of DVC (e.g., 24.08.1995, 15.12.2022, 19.12.2024) show unresolved concerns about its operations, management, and enforcement of regulations.
+
+4. **Railway Connectivity**  
+   - The Bankura-Damodar River railway line (16.03.2016) remains a point of discussion, implying that connectivity and logistical issues related to the railway line are still under consideration.
+
+5. **Corporate Social Responsibility (CSR)**  
+   - The CSR activities of DVC (07.12.2016) were mentioned, indicating that the corporation's social responsibility initiatives are not fully resolved or optimized.
+
+These issues reflect recurring concerns about environmental degradation, infrastructure maintenance, governance of the Damodar Valley Corporation, and connectivity, which have been raised in parliamentary sessions but have not been conclusively resolved.",10.299,330,673,100,100,100,9.71

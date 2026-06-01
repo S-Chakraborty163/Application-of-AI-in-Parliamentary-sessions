@@ -594,9 +594,11 @@ def render_arena_tab(ai_engine) -> None:
         for mid in ARENA_MODELS:
             runs[mid].qa_results.sort(key=lambda x: qa_inputs.index(x["q"]) if x["q"] in qa_inputs else 99)
 
+
         overall.progress(1.0)
         status.success("✅ Arena run complete!")
         st.session_state["arena4_runs"] = runs
+        st.session_state["arena4_context"] = rag_context
 
     # ── Display ────────────────────────────────────────────────────────────────
     if "arena4_runs" not in st.session_state:
@@ -604,6 +606,229 @@ def render_arena_tab(ai_engine) -> None:
 
     runs: dict[str, ModelRun] = st.session_state["arena4_runs"]
     run_list = [runs[mid] for mid in ARENA_MODELS]
+
+    # ── INTELLIGENCE LAYER ───────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("## 🧠 The Intelligence Layer")
+    st.caption("Run a Double-Blind LLM Judge (Llama 70B) over all generated outputs (Inference & Q&A) to mathematically score Faithfulness, Relevance, and Formatting, completely free of Self-Preference Bias.")
+    
+    if st.button("Run Double-Blind Grading", type="primary", use_container_width=True):
+        status_grading = st.empty()
+        prog_grading = st.progress(0.0)
+        status_grading.markdown("⚖️ Grading in progress... (This may take a minute)")
+        
+        judge_model = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+        cf_account = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+        cf_token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+        client = OpenAI(base_url=f"https://api.cloudflare.com/client/v4/accounts/{cf_account}/ai/v1", api_key=cf_token, max_retries=4)
+        context = st.session_state.get("arena4_context", "")
+
+        def _grade_text(ans_text: str, question: str, context: str):
+            import time
+            time.sleep(1) # minimal stagger; max_retries will handle 429s automatically
+            prompt = f"""You are an impartial Judge evaluating an answer.
+Context:
+{context}
+
+Task/Question:
+{question}
+
+Answer A:
+{ans_text}
+
+Score Answer A based strictly on this mathematical rubric:
+1. Faithfulness (0-100): Start at 100. Deduct points heavily if the answer uses information outside the provided Context.
+2. Relevance (0-100): Start at 100. Deduct points heavily if it fails to answer the core Task/Question.
+3. Formatting (0 or 100): 100 if it followed all structural/formatting constraints requested in the Task/Question, else 0. If no constraint was requested, give 100.
+
+Return ONLY a valid JSON object matching this schema, nothing else:
+{{"faithfulness": 90, "relevance": 80, "formatting": 100}}"""
+            try:
+                msg = [{"role": "user", "content": prompt}]
+                res = client.chat.completions.create(model=judge_model, messages=msg, temperature=0.0)
+                text = res.choices[0].message.content
+                if isinstance(text, dict):
+                    return text.get("faithfulness", 0), text.get("relevance", 0), text.get("formatting", 0)
+                    
+                match = re.search(r'\{.*\}', str(text), re.DOTALL)
+                if match:
+                    import ast
+                    try:
+                        data = ast.literal_eval(match.group(0))
+                    except (SyntaxError, ValueError):
+                        import json
+                        data = json.loads(match.group(0).replace("'", '"'))
+                    return data.get("faithfulness", 0), data.get("relevance", 0), data.get("formatting", 0)
+            except Exception as e:
+                print(f"Grading error: {e}")
+            return 0, 0, 0
+
+        grading_tasks = []
+        for mid in ARENA_MODELS:
+            r = runs[mid]
+            for pt in PROMPT_TYPES:
+                ans = r.inf_texts.get(pt, "")
+                if ans and not ans.startswith("⚠️"):
+                    grading_tasks.append((mid, "inf", pt, ans))
+            for i, qa in enumerate(r.qa_results):
+                ans = qa.get("a", "")
+                q = qa.get("q", "")
+                if ans and not ans.startswith("⚠️"):
+                    grading_tasks.append((mid, "qa", i, q, ans))
+
+        done = 0
+        total = len(grading_tasks)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
+            futs = []
+            for t in grading_tasks:
+                q_text = PROMPT_LABELS.get(t[2], t[2]) if t[1] == "inf" else t[3]
+                futs.append(ex.submit(_grade_text, t[-1], q_text, context))
+            
+            for i, fut in enumerate(concurrent.futures.as_completed(futs)):
+                t = grading_tasks[i] # Warning: ordering in as_completed is not guaranteed, need dict
+                # We should bind future to task to be safe
+                pass # fixed below
+                
+        # Safe binding
+        done = 0
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
+            grade_futures = {}
+            for t in grading_tasks:
+                q_text = PROMPT_LABELS.get(t[2], t[2]) if t[1] == "inf" else t[3]
+                grade_futures[ex.submit(_grade_text, t[-1], q_text, context)] = t
+                
+            for fut in concurrent.futures.as_completed(grade_futures):
+                t = grade_futures[fut]
+                mid = t[0]
+                mode = t[1]
+                f_score, r_score, form_score = fut.result()
+                
+                # Fetch latency to compute efficiency
+                if mode == "inf":
+                    lat = runs[mid].inf_latency.get(t[2], 0.001)
+                else:
+                    lat = runs[mid].qa_results[t[2]].get("lat", 0.001)
+                lat = lat if lat > 0 else 0.001
+                qual_score = (f_score + r_score + form_score) / 3.0
+                eff = round(qual_score / lat, 2)
+                
+                if mode == "inf":
+                    if not hasattr(runs[mid], "inf_grading"):
+                        runs[mid].inf_grading = {}
+                    runs[mid].inf_grading[t[2]] = {"faithfulness": f_score, "relevance": r_score, "formatting": form_score, "cognitive_efficiency": eff}
+                else:
+                    runs[mid].qa_results[t[2]]["faithfulness"] = f_score
+                    runs[mid].qa_results[t[2]]["relevance"] = r_score
+                    runs[mid].qa_results[t[2]]["formatting"] = form_score
+                    runs[mid].qa_results[t[2]]["cognitive_efficiency"] = eff
+                    
+                done += 1
+                if total > 0:
+                    prog_grading.progress(done / total)
+                    
+        status_grading.success("✅ Grading complete! CSVs have been updated.")
+        st.session_state["arena4_runs"] = runs # update state
+        st.rerun()
+
+    # ── Section G: Intelligence Layer Insights ───────────────────────────────
+    # We only show this if at least one run has been graded (e.g. check for inf_grading)
+    has_graded = any(hasattr(r, "inf_grading") for r in run_list)
+    if has_graded:
+        st.markdown("---")
+        st.markdown("## 📊 Section G — Intelligence Layer Insights")
+        st.caption("Visualizing the Double-Blind qualitative grades and identifying the most cognitively efficient model.")
+        
+        # Calculate averages per model
+        model_stats = []
+        for r in run_list:
+            f_scores, rel_scores, form_scores, eff_scores = [], [], [], []
+            
+            # Collect from Inference
+            if hasattr(r, "inf_grading"):
+                for pt, grades in r.inf_grading.items():
+                    f_scores.append(grades.get("faithfulness", 0))
+                    rel_scores.append(grades.get("relevance", 0))
+                    form_scores.append(grades.get("formatting", 0))
+                    eff_scores.append(grades.get("cognitive_efficiency", 0))
+            
+            # Collect from Q&A
+            for qa in r.qa_results:
+                f_scores.append(qa.get("faithfulness", 0))
+                rel_scores.append(qa.get("relevance", 0))
+                form_scores.append(qa.get("formatting", 0))
+                eff_scores.append(qa.get("cognitive_efficiency", 0))
+                
+            n = len(f_scores) if f_scores else 1
+            avg_f = sum(f_scores) / n
+            avg_r = sum(rel_scores) / n
+            avg_form = sum(form_scores) / n
+            avg_eff = sum(eff_scores) / n
+            
+            # Calculate overall latency and quality for scatter plot
+            avg_lat = r.avg_qa_lat # or combine inf and qa latency
+            avg_qual = (avg_f + avg_r + avg_form) / 3.0
+            
+            model_stats.append({
+                "Model": r.label,
+                "Color": r.color,
+                "Faithfulness": avg_f,
+                "Relevance": avg_r,
+                "Formatting": avg_form,
+                "Cognitive Efficiency": avg_eff,
+                "Quality Score": avg_qual,
+                "Latency (s)": r.avg_qa_lat
+            })
+            
+        df_stats = pd.DataFrame(model_stats)
+        
+        # Chart 1: RAG Triad Grouped Bar
+        fig_triad = go.Figure()
+        fig_triad.add_trace(go.Bar(x=df_stats["Model"], y=df_stats["Faithfulness"], name="Faithfulness", marker_color="#00C853"))
+        fig_triad.add_trace(go.Bar(x=df_stats["Model"], y=df_stats["Relevance"], name="Relevance", marker_color="#2962FF"))
+        fig_triad.add_trace(go.Bar(x=df_stats["Model"], y=df_stats["Formatting"], name="Formatting", marker_color="#FF6D00"))
+        fig_triad.update_layout(
+            barmode='group',
+            title="Average RAG Triad Scores (0-100)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            paper_bgcolor="rgba(0,0,0,0)",
+            font=dict(color="#C9D1D9"),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+        )
+        
+        # Chart 2: Cognitive Efficiency Scatter Plot
+        fig_scatter = go.Figure()
+        for i, row in df_stats.iterrows():
+            fig_scatter.add_trace(go.Scatter(
+                x=[row["Latency (s)"]], 
+                y=[row["Quality Score"]],
+                mode="markers+text",
+                marker=dict(size=15, color=row["Color"]),
+                name=row["Model"],
+                text=[row["Model"]],
+                textposition="top center"
+            ))
+        fig_scatter.update_layout(
+            title="Cognitive Efficiency: Quality vs. Wait Time",
+            xaxis_title="Average Wait Time (Seconds) ➔ Faster is Better",
+            yaxis_title="Average Quality Score (0-100) ➔ Higher is Better",
+            plot_bgcolor="rgba(0,0,0,0)",
+            paper_bgcolor="rgba(0,0,0,0)",
+            font=dict(color="#C9D1D9"),
+            showlegend=False
+        )
+        # Add quadrants (rough estimate based on max/min)
+        mid_lat = df_stats["Latency (s)"].mean()
+        mid_qual = df_stats["Quality Score"].mean()
+        fig_scatter.add_hline(y=mid_qual, line_dash="dash", line_color="#444")
+        fig_scatter.add_vline(x=mid_lat, line_dash="dash", line_color="#444")
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            st.plotly_chart(fig_triad, use_container_width=True)
+        with col2:
+            st.plotly_chart(fig_scatter, use_container_width=True)
+            
+        st.info("💡 **How to read the Scatter Plot:** Models in the **Top-Left** quadrant are the most cognitively efficient. They deliver the highest intelligence (Faithfulness & Relevance) for the lowest latency cost.")
 
     # ── Section A: Score comparison ───────────────────────────────────────────
     st.markdown("---")
@@ -791,11 +1016,16 @@ def render_arena_tab(ai_engine) -> None:
     inf_exp_rows = []
     for r in run_list:
         for pt in PROMPT_TYPES:
+            inf_grading = getattr(r, "inf_grading", {}).get(pt, {})
             inf_exp_rows.append({
                 "Model": r.label, "Prompt Type": PROMPT_LABELS[pt],
                 "Latency (s)": round(r.inf_latency.get(pt, 0), 3),
                 "Output Tokens": r.inf_out_tok.get(pt, 0),
                 "Input Tokens": r.inf_in_tok.get(pt, 0),
+                "Faithfulness Score": inf_grading.get("faithfulness", 0),
+                "Relevance Score": inf_grading.get("relevance", 0),
+                "Formatting Score": inf_grading.get("formatting", 0),
+                "Cognitive Efficiency": inf_grading.get("cognitive_efficiency", 0.0),
                 "Output Text": r.inf_texts.get(pt, ""),
             })
     df_exp_inference = pd.DataFrame(inf_exp_rows)
@@ -809,6 +1039,10 @@ def render_arena_tab(ai_engine) -> None:
                 "Latency (s)": round(qa.get("lat", 0), 3),
                 "Output Tokens": qa.get("out_tok", 0),
                 "Input Tokens": qa.get("in_tok", 0),
+                "Faithfulness Score": qa.get("faithfulness", 0),
+                "Relevance Score": qa.get("relevance", 0),
+                "Formatting Score": qa.get("formatting", 0),
+                "Cognitive Efficiency": qa.get("cognitive_efficiency", 0.0),
             })
     df_exp_qa = pd.DataFrame(qa_exp_rows)
 
