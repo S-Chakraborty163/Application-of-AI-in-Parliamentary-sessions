@@ -1,5 +1,0 @@
-Topic,Model,Dashboard Wait Time (s),Total Tokens
-Water & Rivers,openai/gpt-oss-20b,2.19,4761
-Water & Rivers,llama-3.1-8b-instant,2.65,3391
-Water & Rivers,llama-3.3-70b-versatile,3.77,3175
-Water & Rivers,qwen/qwen3-32b,4.23,4983

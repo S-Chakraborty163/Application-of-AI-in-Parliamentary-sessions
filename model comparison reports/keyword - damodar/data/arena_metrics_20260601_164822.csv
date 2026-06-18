@@ -1,6 +1,0 @@
-Model,Avg Inf Latency (s),Avg Q&A Latency (s),Avg Throughput (tok/s),Inf Output Tokens,Q&A Output Tokens,Total Output Tokens,Errors
-Llama 3.3 · 70B,9.036,18.562,28.5,1400,1069,2469,0
-Llama 4 · 17B,11.622,2.872,59.5,1667,671,2338,0
-Gemma 3 · 12B,5.04,2.904,64.2,1686,522,2208,0
-Mistral · 7B,28.226,13.231,15.5,2236,589,2825,0
-Granite 4.0 · Micro,12.29,5.793,30.5,1946,517,2463,0

@@ -19,3 +19,26 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+
+# Large AI Models
+*.gguf
+*.bin
+MistralModelfile
+Modelfile
+
+# Databases, Scraper Output, and Big Data
+parliament_chroma_db/
+chroma_db/
+parliament_markdowns/
+sansad_output/
+temp_ingest_pdfs/
+test charts and reports/
+model comparison reports/
+*.duckdb
+
+# Logs and State Files
+*.log
+*.json
+
+# Specifically TRACK the dataset
+!custom_fqg_training_data.jsonl

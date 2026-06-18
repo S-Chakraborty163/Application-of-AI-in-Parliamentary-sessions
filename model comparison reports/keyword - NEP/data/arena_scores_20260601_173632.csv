@@ -1,6 +1,0 @@
-Model,Progress (/100),Impact (/100),Reason,Score Latency (s)
-Llama 3.3 · 70B,50,80,Nepal border issues,4.562
-Llama 4 · 17B,85,90,High frequency of diplomatic and economic interactions with Nepal,0.715
-Gemma 3 · 12B,75,80,"Significant focus on border security, infrastructure, and disaster relief with Nepal.",1.019
-Mistral · 7B,75,90,Parliamentary data related to various ministries and titles involving Nepal,2.987
-Granite 4.0 · Micro,50,60,Parliamentary actions related to Indo-Nepal border issues and cross-border cooperation.,1.795

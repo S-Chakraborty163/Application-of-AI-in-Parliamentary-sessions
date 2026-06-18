@@ -6,3 +6,5 @@ pandas
 openpyxl 
 requests 
 python-dotenv
+neo4j
+duckdb

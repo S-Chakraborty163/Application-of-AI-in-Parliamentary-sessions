@@ -1,6 +1,0 @@
-Model,Progress (/100),Impact (/100),Reason,Score Latency (s)
-Llama 3.3 · 70B,80,70,Damodar River projects,1.714
-Llama 4 · 17B,42,67,Multiple ministries involved in Damodar River management,0.733
-Gemma 3 · 12B,75,65,Frequent mentions across ministries indicate ongoing concerns and actions related to the Damodar River.,1.1
-Mistral · 7B,50,75,Parliamentary records of Damodar River projects and related issues,3.185
-Granite 4.0 · Micro,0,0,No parliamentary data found for the specified date and ministry.,1.397
