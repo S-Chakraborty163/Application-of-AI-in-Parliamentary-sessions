@@ -1,0 +1,6 @@
+Model,Progress (/100),Impact (/100),Reason,Score Latency (s)
+Llama 3.3 · 70B,80,90,Digital India initiatives,1.79
+Llama 4 · 17B,85,90,Multiple ministries involved in Digital India initiatives,1.277
+Gemma 3 · 12B,85,92,Extensive parliamentary discussion and multiple ministries involved indicate significant progress.,0.976
+Mistral · 7B,90,85,Numerous initiatives under Digital India by various ministries,3.458
+Granite 4.0 · Micro,100,100,Agreement on Digital India finalized.,1.916

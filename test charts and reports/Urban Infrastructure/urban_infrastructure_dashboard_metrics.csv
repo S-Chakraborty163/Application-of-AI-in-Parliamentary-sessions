@@ -1,0 +1,5 @@
+Topic,Model,Dashboard Wait Time (s),Total Tokens
+Urban Infrastructure,llama-3.1-8b-instant,2.03,3970
+Urban Infrastructure,openai/gpt-oss-20b,2.22,5576
+Urban Infrastructure,llama-3.3-70b-versatile,3.46,3806
+Urban Infrastructure,qwen/qwen3-32b,4.16,4065

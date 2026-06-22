@@ -1,0 +1,133 @@
+Model,Question,Answer,Latency (s),Output Tokens,Input Tokens,Faithfulness Score,Relevance Score,Formatting Score,Cognitive Efficiency
+Llama 3.3 · 70B,What is the current implementation status of this policy?,"The provided context only contains information up to 2015 and does not provide real-time or current data on the implementation status of the child labour policy. 
+
+However, based on the context, it can be seen that the Ministry of Labour and Employment has been actively working on the issue of child labour through various initiatives such as the National Child Labour Project, inspections for identification of child labourers, and provision of funds for vocational training and rehabilitation of rescued child labourers.
+
+For the current implementation status, I would need to rely on general knowledge. As of my knowledge cutoff, the Indian government has continued to work towards eradicating child labour through various initiatives and amendments to existing laws, such as the Child Labour (Prohibition and Regulation) Amendment Act, 2016. However, the effectiveness and current status of these initiatives would require more up-to-date information.",7.179,173,712,90,80,100,12.54
+Llama 3.3 · 70B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of Labour and Employment has been the most active in responding to the topic of child labour. All the records in the context tag are from this ministry, indicating a high level of engagement and activity on this issue.",2.055,51,714,100,100,100,48.67
+Llama 3.3 · 70B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided context, the key unresolved issues raised by parliamentarians related to child labour include:
+
+1. **Effective Eradication of Child Labour**: Multiple records (e.g., 20.08.2007, 07.12.2009) indicate that parliamentarians have been consistently raising the issue of eradicating child labour, suggesting that despite efforts, the problem persists.
+
+2. **Exploitation of Child Labourers**: The record from 17.03.2008 highlights the exploitation of child labourers, implying that this remains an unresolved issue.
+
+3. **Utilization of Funds**: Records like 19.11.2007 (UTILIZATION OF FUND UNDER ABOLITION OF CHILD LABOUR PROGRAMME) and 20.10.2008 (FUNDS FOR REHABILITATION OF RESCUED CHILD LABOUR) suggest concerns over how funds allocated for child labour abolition and rehabilitation are being utilized, indicating potential inefficiencies or mismanagement.
+
+4. **Identification and Rescue of Child Labourers**: The mention of inspections for the identification of child labourers (21.04.2008) and the death of child labourers (10.09.2007) points to ongoing challenges in identifying and rescuing child labourers effectively.
+
+5. **Rehabilitation and Vocational Training**: Records such as 10.03.2008 (FUND FOR VOCATIONAL TRAINING TO CHILD LABOURERS) and 30.11.2009 (NATIONAL CHILD LABOUR PROJECT) indicate a need for better rehabilitation and vocational training programs for rescued child labourers, suggesting current programs may be inadequate.
+
+6. **Enforcement of Ban on Child Labour**: The repeated mentions of a ban on child labour (e.g., 10.03.2008, 07.03.2011, 07.12.2009) imply that enforcing such a ban and ensuring compliance remains an unresolved issue.
+
+These issues collectively suggest that while there have been efforts to address child labour, significant challenges in enforcement, rehabilitation, and prevention persist, requiring continued attention and action from policymakers.",14.782,430,713,100,100,100,6.76
+Llama 4 · 17B,What is the current implementation status of this policy?,"The provided context appears to be a collection of parliamentary records related to child labor in India, spanning from 2004 to 2015. While it provides insights into various discussions, debates, and actions taken by the Ministry of Labour and Employment regarding child labor, it does not offer real-time or the most current data on the implementation status of child labor policies.
+
+However, based on the information available up to 2015, it can be inferred that the Indian government has been actively engaged in formulating and implementing policies aimed at eradicating child labor. Some of the key initiatives mentioned include:
+
+1. **Abolition of Child Labour Programme**: There were discussions on the utilization of funds under this program, indicating efforts to rehabilitate and educate child laborers.
+
+2. **National Child Labour Project (NCLP)**: The government has been expanding NCLP, which aims to withdraw children from work and provide them with education and vocational training.
+
+3. **Ban on Child Labour**: There have been repeated calls for a ban on child labor, reflecting the government's intent to eliminate the practice.
+
+4. **Multi-pronged Strategy**: The adoption of a multi-pronged strategy for the eradication of child labor suggests a comprehensive approach to addressing the issue.
+
+5. **Inspections and Identification**: Efforts to conduct inspections for the identification of child laborers indicate proactive measures to tackle the problem.
+
+For the current implementation status of child labor policies in India, I would recommend consulting more recent sources, such as:
+
+- Official government websites and publications from the Ministry of Labour and Employment.
+- Reports from international organizations like the International Labour Organization (ILO).
+- Non-governmental organizations (NGOs) focused on child rights and labor issues.
+
+These sources are likely to provide the most up-to-date information on the progress, challenges, and current strategies being employed to combat child labor in India. 
+
+Given the lack of access to real-time data within the provided context, I explicitly state that my response is based on general knowledge and information available up to 2015.",7.624,416,684,100,90,100,12.68
+Llama 4 · 17B,Which ministry has been most active in responding to this topic?,"Based on the provided context, the Ministry of Labour and Employment has been most active in responding to the topic of child labour. This conclusion is drawn from the fact that all the records in the context (13 records) pertain to this ministry and discuss various aspects of child labour, such as eradication, rehabilitation, and utilization of funds for abolition of child labour programmes.",1.869,76,686,100,100,100,53.5
+Llama 4 · 17B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided context, the key unresolved issues raised by parliamentarians regarding child labor include:
+
+1. **Eradication of Child Labor**: Despite efforts to address the issue, parliamentarians continue to raise concerns about the effective eradication of child labor (20.08.2007).
+2. **Utilization of Funds**: There are concerns about the proper utilization of funds allocated for the abolition of child labor programs and the rehabilitation of rescued child laborers (19.11.2007, 20.10.2008).
+3. **Implementation of Ban on Child Labor**: Parliamentarians have raised questions about the effective implementation of the ban on child labor (10.03.2008, 07.03.2011, 07.12.2009).
+4. **Exploitation of Child Laborers**: Concerns have been raised about the exploitation of child laborers and the need for stricter regulations to prevent it (17.03.2008).
+5. **Identification and Rescue of Child Laborers**: Issues have been raised about the identification of child laborers and the rescue operations (21.04.2008, 13.08.2007).
+6. **Alternative Arrangements for Affected Child Laborers**: Parliamentarians have raised concerns about providing alternative arrangements, such as education and vocational training, for affected child laborers (12.03.2007, 10.03.2008).
+7. **Shelter Homes for Child Laborers**: The need for shelter homes for child laborers has been raised as a concern (30.04.2007).
+
+These issues indicate that despite efforts to address child labor, parliamentarians continue to raise concerns about the effectiveness of the measures taken and the need for further action to eradicate child labor.",4.496,361,685,100,100,100,22.24
+Gemma 3 · 12B,What is the current implementation status of this policy?,"Based on the provided parliamentary records, the Indian government has consistently addressed the issue of child labour through various initiatives and policies. Here's a synthesis of the actions taken:
+
+**Key Initiatives and Policies:**
+
+*   **Bans on Child Labour:** There have been multiple discussions and actions related to banning child labour, documented in 2007, 2008, 2009, and 2011.
+*   **National Child Labour Project (NCLP):** This project has been a focus, with discussions on its expansion and utilization of funds.
+*   **Rehabilitation and Alternative Arrangements:** The government has allocated funds for the rehabilitation of rescued child labourers and explored alternative arrangements for affected children, including shelter homes, schools, and vocational training.
+*   **Surveys and Inspections:** Efforts have been made to identify child labourers through surveys and inspections.
+*   **Multi-pronged Strategy:**  A multi-pronged strategy for the eradication of child labour has been discussed.
+
+**Overall Status:**
+
+While the records demonstrate a sustained focus on child labour eradication through various programs and legislative actions, they **do not provide a definitive ""current implementation status.""** They primarily document discussions, fund allocations, and specific project initiatives. To ascertain the current implementation status, further information beyond these records would be needed.
+
+**Please note:** This response is based solely on the provided context.",5.28,292,739,100,90,100,18.31
+Gemma 3 · 12B,Which ministry has been most active in responding to this topic?,"Based on the provided parliamentary records, the **Ministry of Labour and Employment** has been the most active in responding to the topic of child labor. All listed documents related to child labor originate from this ministry.",1.027,42,741,100,100,100,97.36
+Gemma 3 · 12B,What are the key unresolved issues raised by parliamentarians?,"Based on the provided parliamentary records, the key unresolved issues related to child labor that have been raised by parliamentarians include:
+
+*   **Implementation and Utilization of Funds:** There are questions regarding the effective utilization of funds allocated under programs like the ""Abolition of Child Labour Programme"" (19.11.2007).
+*   **Rehabilitation and Alternative Arrangements:** Ensuring adequate funds for the rehabilitation of rescued child laborers (20.10.2008) and providing suitable alternative arrangements for affected child laborers (12.03.2007) appear to be ongoing concerns.
+*   **Expansion of Programs:** Discussions revolve around the expansion of the ""National Child Labour Project"" (20.10.2008 & 30.11.2009) to cover more areas and children.
+*   **Enforcement and Inspections:** The effectiveness of inspections for identifying child laborers (21.04.2008) and enforcing the ban on child labor (10.03.2008, 07.03.2011 & 07.12.2009) remains a recurring theme.
+*   **Exploitation and Deaths:** Concerns are raised about the exploitation of child laborers (17.03.2008) and the tragic instances of deaths of child laborers (10.09.2007).
+
+
+
+It's important to note that the records primarily document discussions and initiatives related to child labor, rather than explicitly stating ""unresolved issues."" However, the repeated focus on these areas suggests they remain areas of parliamentary concern and require continued attention.",6.753,360,740,100,100,100,14.81
+Mistral · 7B,What is the current implementation status of this policy?," Based on the provided context, it is clear that there have been numerous policies and initiatives implemented by the Labour and Employment Ministry in India regarding the abolition of child labour and the rehabilitation of rescued child labourers. Some of these initiatives include the expansion of the National Child Labour Project, the establishment of shelter homes and schools for child labourers, alternative arrangements for affected child labourers, inspections for identification of child labourers, and the provision of funds for their vocational training.
+
+However, the context does not provide sufficient information to determine the current implementation status of these policies. For the most accurate and up-to-date information, it would be best to refer to the latest reports and publications from the Labour and Employment Ministry or related organizations.",11.207,158,951,100,90,100,8.63
+Mistral · 7B,Which ministry has been most active in responding to this topic?," Based on the provided context, the Ministry of Labour and Employment has been the most active in responding to the topic of child labour.",4.482,28,953,100,100,100,22.31
+Mistral · 7B,What are the key unresolved issues raised by parliamentarians?," Based on the provided context, the key unresolved issues raised by parliamentarians in relation to child labor include:
+
+1. Effective implementation and enforcement of the ban on child labor.
+2. Provision of alternative arrangements for affected child laborers.
+3. Identification and rescue of child laborers through regular inspections.
+4. Rehabilitation and vocational training for rescued child laborers.
+5. Expansion and funding of programs for the abolition of child labor.
+6. Addressing the root causes of child labor, such as poverty and lack of education.
+
+These issues have been consistently addressed in various parliamentary records, but it appears that there is no clear resolution or definitive answer in the context provided regarding the current status or progress made in addressing these challenges.",11.168,167,953,90,95,100,8.51
+Granite 4.0 · Micro,What is the current implementation status of this policy?,"Based on the parliamentary records provided, there is no explicit mention of the current implementation status of the child labor abatement policies. The records detail various legislative actions, committee discussions, fund allocations, and initiatives related to child labor eradication from 2004-2011. However, they do not contain any information about the present-day status or progress of these policies. To determine the current implementation status, one would need to consult more recent parliamentary proceedings, government reports, or official government websites. The available context does not provide the necessary up-to-date information to answer this question directly.",4.127,117,690,100,100,100,24.23
+Granite 4.0 · Micro,Which ministry has been most active in responding to this topic?,"Based on the parliamentary records provided, the Ministry of Labour and Employment has been the most active in responding to issues related to child labour. 
+
+The context lists numerous parliamentary discussions, bills, and initiatives under the ""CHILD LABOUR"" title from 2004 to 2015, all falling under the jurisdiction of the Labour and Employment Ministry. Examples include discussions on the abolition of child labour, utilization of funds for programs aimed at eradicating child labour, inspections for identifying child labourers, setting up shelter homes and schools for child labourers, and expanding the National Child Labour Project.
+
+In contrast, the other ministries listed in the context (Health, Finance, Home Affairs, etc.) do not appear to have been directly involved in the parliamentary discussions on child labour during this period. 
+
+Therefore, the Ministry of Labour and Employment can be considered the most active ministry in addressing child labour issues based on the available records.",6.155,184,692,100,100,100,16.25
+Granite 4.0 · Micro,What are the key unresolved issues raised by parliamentarians?,"Based on the parliamentary records retrieved from the Sansad AI database, the key unresolved issues raised by parliamentarians regarding child labour are:
+
+1. **Ban on Child Labour**  
+   - Multiple sessions (e.g., 10.03.2008, 07.03.2011, 07.12.2009) saw discussions on the need to **ban child labour** across various sectors.  
+   - Parliamentarians repeatedly emphasized that a **complete prohibition** is essential to prevent the exploitation of children.
+
+2. **Identification and Inspection of Child Labourers**  
+   - Several sessions (e.g., 21.04.2008, 17.03.2008, 10.08.2007) focused on **inspections** to identify child labourers and ensure their removal from hazardous workplaces.  
+   - The issue of **effective inspection mechanisms** remains unresolved, as parliamentarians repeatedly called for robust systems to monitor compliance.
+
+3. **Rehabilitation and Reintegration of Child Labourers**  
+   - Topics like **shelter homes**, **school facilities**, **alternative arrangements**, and **vocational training** indicate a focus on **rehabilitating rescued child labourers**.  
+   - However, the **long-term sustainability** and **effectiveness** of these rehabilitation programs have not been conclusively addressed in the records.
+
+4. **Exploitation and Exploitation-Free Environments**  
+   - Discussions on **exploitation of child labourers** (e.g., 19.11.2007, 30.04.2007) highlight the need for **protective measures** against exploitation.  
+   - While measures like **ban on hazardous occupations** were discussed, the **implementation gaps** and **ongoing challenges** in ensuring exploitation-free environments remain unresolved.
+
+5. **Funding and Resource Allocation**  
+   - Sessions on **funds for rehabilitation** (e.g., 20.10.2008) and **expansion of the National Child Labour Project** (e.g., 20.10.2008) underscore the **financial aspect** of addressing child labour.  
+   - Yet, the **allocation of adequate resources** and **monitoring of fund utilization** are still open issues.
+
+6. **Schooling and Alternative Education**  
+   - Initiatives like **school for child labourers** (e.g., 19.03.2007, 10.03.2008) aim to provide **education** as a preventive measure.  
+   - The **integration of education into rehabilitation programs** and ensuring **continuous learning** opportunities for rescued children are unresolved aspects.
+
+**Summary**: The parliamentary discussions consistently highlight the need for a **complete ban on child labour**, robust **identification and inspection mechanisms**, effective **rehabilitation and reintegration programs**, and **adequate funding**. However, the records do not provide clear resolutions or follow-up actions on these issues, indicating that these remain **unresolved concerns** for parliamentarians.",18.928,613,691,100,100,100,5.28

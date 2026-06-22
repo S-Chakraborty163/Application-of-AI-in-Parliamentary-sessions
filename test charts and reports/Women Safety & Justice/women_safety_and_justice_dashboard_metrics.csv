@@ -1,0 +1,5 @@
+Topic,Model,Dashboard Wait Time (s),Total Tokens
+Women Safety & Justice,openai/gpt-oss-20b,2.1,6079
+Women Safety & Justice,llama-3.3-70b-versatile,3.04,4505
+Women Safety & Justice,llama-3.1-8b-instant,13.62,4819
+Women Safety & Justice,qwen/qwen3-32b,22.5,6309
