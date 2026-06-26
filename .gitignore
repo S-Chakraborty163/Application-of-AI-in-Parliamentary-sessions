@@ -20,25 +20,20 @@ __pycache__/
 .idea/
 .DS_Store
 
-# Large AI Models
+# Large AI Models & Executables
 *.gguf
 *.bin
-MistralModelfile
-Modelfile
+ngrok.exe
+ngrok.zip
 
-# Databases, Scraper Output, and Big Data
+# Databases and Big Data
 parliament_chroma_db/
 chroma_db/
 parliament_markdowns/
+*.duckdb
 sansad_output/
 temp_ingest_pdfs/
-test charts and reports/
-model comparison reports/
-*.duckdb
+.cloud_backup/
 
-# Logs and State Files
+# Logs and Temp
 *.log
-*.json
-
-# Specifically TRACK the dataset
-!custom_fqg_training_data.jsonl
